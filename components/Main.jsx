@@ -4,8 +4,11 @@ import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
 const Main = () => {
   return (
-    <div>
-      <ul class="list none">
+    <div className = 'bg-[#fcf2f1]'>
+      <h1 class='text-[80px] font-display'>Carmen Chow</h1>
+      <h1 class='text-[80px] font-display'>Front-end Developer</h1>
+
+      <ul class='list none text-[30px]' >
         <li>About</li>  
         <li>Skills</li>
         <li>Projects</li>

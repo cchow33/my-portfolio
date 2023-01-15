@@ -10,7 +10,7 @@ const Navbar = () => {
   // const handleNav = () => {}
   
   return (
-    <nav>
+    <nav className='bg-[#fcf2f1]'>
       <Image src="/../public/assets/blacksquare.png" alt="/" width="40" height="40"/>
     </nav>
   )
