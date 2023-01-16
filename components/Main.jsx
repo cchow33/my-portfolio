@@ -12,6 +12,7 @@ const Main = () => {
     <div className = 'socials'>
       <a href="#_"><FontAwesomeIcon icon={faGithub} width={50} height = {50}/></a>
       <a href="#_"><FontAwesomeIcon icon={faLinkedin} width={50} height = {50}/></a>
+      <FontAwesomeIcon icon="fab fa-linkedin-in" />
     </div>
 
       <ul class='list none text-[25px]' >
