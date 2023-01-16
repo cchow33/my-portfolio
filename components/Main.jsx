@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowDown, faArrowUp, faGithub, faLinkedin } from '@fortawesome/free-solid-svg-icons'
+import { BsArrowDownCircle, BsArrowUpCircle} from 'react-icons/bs'
 
 const Main = () => {
 
@@ -32,12 +31,12 @@ const Main = () => {
     </ul>
     
     <button class='hover:border-black border-transparent border-2 rounded-full py-2 px-2 transition-ease-in-out delay-350'>
-      <FontAwesomeIcon icon={faArrowDown} width={50} height = {50}/>
+      <BsArrowDownCircle size={30}/>
     </button>
 
     <button class='hover:bg-black text-white rounded-full py-2 px-2 transition-ease-in-out delay-350'>
       <span class='text-black'>
-        <FontAwesomeIcon icon={faArrowUp} width={50} height = {50} />
+      <BsArrowUpCircle size={30}/>
       </span>
     </button>
     <p>Scroll Up</p>
