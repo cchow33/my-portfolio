@@ -10,7 +10,7 @@ const Skills = () => {
 
   return (
 
-    <section> 
+    <section id="skills"> 
       
       <h1 class='text-[60px]'>Technologies I use</h1>
 

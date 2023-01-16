@@ -1,9 +1,15 @@
 import { useEffect, useState } from 'react'
-import { BiArrowFromBottom } from 'react-icons/bi'
+// import { biArrowFromBottom } from 'react-icons/bi'
 
-// import { classNames } from '/utils'
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
-export const ScrollToTop = () => {
+
+// import { classNames } from 'utilities'
+// @tailwind utilities;
+
+const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false)
 
   const toggleVisibility = () => {
@@ -33,14 +39,17 @@ export const ScrollToTop = () => {
     <div className="fixed bottom-2 right-2">
       <button
         type="button"
-        onClick={scrollToTop}
-        className={classNames(
-          isVisible ? 'opacity-100' : 'opacity-0',
-          'bg-pink-600 hover:bg-pink-700 focus:ring-pink-500 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2',
-        )}
+        onClick={ scrollToTop }
+        // className={classNames(
+        //   isVisible ? 'opacity-100' : 'opacity-0',
+        //   'bg-pink-600 hover:bg-pink-700 focus:ring-pink-500 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2',
+        // )}
       >
-        <BiArrowFromBottom className="h-6 w-6" aria-hidden="true" />
+
+        <FontAwesomeIcon icon={faArrowUp}/>
       </button>
     </div>
   )
 }
+
+export default ScrollToTop
