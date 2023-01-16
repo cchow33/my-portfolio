@@ -10,10 +10,10 @@ const Skills = () => {
 
   return (
 
-    <section id="skills"> 
+    <section id="skills" p-20> 
     <div class="px-8">
       
-      <h1 class='text-[60px] font-display'>Technologies I use</h1>
+      <h1 class='text-[60px] font-display underline decoration-emerald-300 decoration-4 p-10 '>Skills</h1>
 
       <div class='grid grid-cols-4 gap-4'>
 
