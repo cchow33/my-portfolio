@@ -8,6 +8,11 @@ const About = () => {
 
       <p class='text-[30px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum ratione nobis autem culpa quidem, quod dolorum. Ex quidem omnis ipsam veritatis, commodi a suscipit aliquid! Fugit minus sint iste? Lour.</p> 
       
+      <p>When I'm not coding, I'm:</p>
+      <p>training for a 10K</p>
+      <p>listening to a podcast</p>
+      <p>looking for the best pastries in the city</p>
+
     </section>
   )
 }

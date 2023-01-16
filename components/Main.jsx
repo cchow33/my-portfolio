@@ -9,12 +9,6 @@ const Main = () => {
       <h1 class='text-[130px] font-display'>Carmen Chow</h1>
       <h1 class='text-[80px] font-display'>Front-end Developer</h1>
 
-    <div className = 'socials'>
-      <a href="#_"><FontAwesomeIcon icon={faGithub} width={50} height = {50}/></a>
-      <a href="#_"><FontAwesomeIcon icon={faLinkedin} width={50} height = {50}/></a>
-      <FontAwesomeIcon icon="fab fa-linkedin-in" />
-    </div>
-
     <ul class='list none text-[25px]' >
       <a href="#about" class="relative inline-block px-3 py-1 font-medium group">
       <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
