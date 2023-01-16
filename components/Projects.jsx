@@ -2,9 +2,15 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+
+      <h1 class='text-[60px]'>Projects</h1>
+
+      <div class="p"></div>
+
+
+
+    </section>
   )
 }
 

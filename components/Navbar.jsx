@@ -11,7 +11,7 @@ const Navbar = () => {
   
   return (
     <nav className='bg-[#fcf2f1]'>
-      <Image src="/../public/assets/blacksquare.png" alt="/" width="40" height="40"/>
+      <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/>
     </nav>
   )
 }
