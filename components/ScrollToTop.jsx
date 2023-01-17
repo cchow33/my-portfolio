@@ -28,13 +28,16 @@ const ScrollToTop = () => {
   }, [])
 
   return (
-    <div className="fixed bottom-2 right-2">
+    <div className="fixed bottom-2 right-2 pb-[30px] pr-[30px]">
       <button
         type="button"
         onClick={scrollToTop}
         // class="hover:bg-black text-white rounded-full"
       >
-        <BsArrowUpCircle size={30} aria-hidden="true" /> 
+        <span class="content-center">
+        <BsArrowUpCircle size={30} aria-hidden="true" class="content-center"/> 
+        scroll up
+        </span>
       </button>
     </div>
   )
