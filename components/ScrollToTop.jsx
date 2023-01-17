@@ -15,7 +15,8 @@ const ScrollToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'instant',
+      behavior: 'smooth',
+      // behavior: 'instant',
     })
   }
 
@@ -28,7 +29,7 @@ const ScrollToTop = () => {
   }, [])
 
   return (
-    <div className="fixed bottom-2 right-2 pb-[30px] pr-[30px]">
+    <div className="fixed bottom-2 right-2 pb-[30px] px-[2%]">
       <button
         type="button"
         onClick={scrollToTop}
