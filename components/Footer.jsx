@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
+    <section id="footer" >
       <p>Designed and built with ❤️ by Carmen Chow</p>
-    </div>
+    </section>
   )
 }
 
