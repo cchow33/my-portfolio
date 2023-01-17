@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react'
 import { BsArrowUpCircle } from 'react-icons/bs'
 
-// import { classNames } from '/utils'
-
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false)
 
@@ -34,8 +32,9 @@ const ScrollToTop = () => {
       <button
         type="button"
         onClick={scrollToTop}
+        // class="hover:bg-black text-white rounded-full"
       >
-        <BsArrowUpCircle size={30} aria-hidden="true" />
+        <BsArrowUpCircle size={30} aria-hidden="true" /> 
       </button>
     </div>
   )
