@@ -9,14 +9,14 @@ import { DiGit, DiReact } from 'react-icons/di'
 const Skills = () => {
 
   return (
-
     <section id="skills" p-20> 
-
-    <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
+      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
       
-      <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"> . Skills </h1>
+      <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"><span class='text-[30px]'>🔧 </span>  Technology </h1>
 
-      <div class='grid grid-cols-4 gap-4'>
+      <p class="font-display text-[30px]">Tools I use to get the job done</p>
+
+      <div class='grid grid-cols-4 gap-4 pt-[30px]'>
 
         <span><SiJavascript size={60}/> Javascript</span>
         <span><AiFillHtml5 size={60}/> HTML5</span>
