@@ -2,7 +2,10 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <section class="bg-[#f9fafb]">
+    
+    
+    </section>
   )
 }
 

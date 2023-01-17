@@ -8,6 +8,7 @@ import Projects from '../components/Projects'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import ScrollToTop from '../components/ScrollToTop'
+import Card from '@/components/Card'
 
 export default function Home() {
   return (
@@ -16,10 +17,11 @@ export default function Home() {
       <Main/>
       <ScrollToTop/>
       <About/>
-      <Skills/>
+      {/* <Skills/> */}
       <Projects/>
       <Contact/>
       <Footer/>
+      <Card/>
     </>
   )
 }
