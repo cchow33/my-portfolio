@@ -73,7 +73,7 @@ const Projects = () => {
 
 
 {/* Project 4: Towers */}
-            <Image src="/../public/assets/towers-project.png" alt="project3" width="500" height="500"/>
+            <Image src="/../public/assets/towers-project.png" alt="project4" width="500" height="500"/>
             <p class="text-slate-800 text-[20px] font-bold">Towers of Hanoi</p>
             <p>Game moving pegs</p>  
 
@@ -92,7 +92,24 @@ const Projects = () => {
           </div>
 
 
+{/* Project 5: Portfolio */}
+<Image src="/../public/assets/portfolio.png" alt="project5" width="500" height="500"/>
+            <p class="text-slate-800 text-[20px] font-bold">Towers of Hanoi</p>
+            <p>Game moving pegs</p>  
 
+            <div class="flex space-x-4">
+            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">NextJS</div> 
+            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs">Tailwind</div> 
+
+          </div>
+
+          <div class="flex">
+            <a href="https://github.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/>
+            </a>
+
+            <a href="https://vercel.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/>              
+            </a>
+          </div>
 
 
           

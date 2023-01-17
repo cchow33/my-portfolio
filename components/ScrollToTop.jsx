@@ -1,13 +1,7 @@
 import { useEffect, useState } from 'react'
-// import { biArrowFromBottom } from 'react-icons/bi'
+import { BsArrowUpCircle } from 'react-icons/bs'
 
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
-
-
-// import { classNames } from 'utilities'
-// @tailwind utilities;
+// import { classNames } from '/utils'
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -23,7 +17,7 @@ const ScrollToTop = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: 'instant',
     })
   }
 
@@ -39,14 +33,9 @@ const ScrollToTop = () => {
     <div className="fixed bottom-2 right-2">
       <button
         type="button"
-        onClick={ scrollToTop }
-        // className={classNames(
-        //   isVisible ? 'opacity-100' : 'opacity-0',
-        //   'bg-pink-600 hover:bg-pink-700 focus:ring-pink-500 inline-flex items-center rounded-full p-3 text-white shadow-sm transition-opacity focus:outline-none focus:ring-2 focus:ring-offset-2',
-        // )}
+        onClick={scrollToTop}
       >
-
-        <FontAwesomeIcon icon={faArrowUp}/>
+        <BsArrowUpCircle size={30} aria-hidden="true" />
       </button>
     </div>
   )
