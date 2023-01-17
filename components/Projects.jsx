@@ -5,7 +5,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
+      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%] grid-cols-2'>
       
       <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]">. Projects</h1>
       <p class="font-display text-[30px]">Check out some things I built</p>

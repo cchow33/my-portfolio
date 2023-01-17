@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsArrowDownCircle, BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin } from 'react-icons/bs'
 
 const Main = () => {
 

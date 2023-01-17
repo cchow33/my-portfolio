@@ -17,7 +17,7 @@ export default function Home() {
       <Main/>
       <ScrollToTop/>
       <About/>
-      {/* <Skills/> */}
+      <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>

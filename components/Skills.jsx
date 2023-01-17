@@ -11,9 +11,10 @@ const Skills = () => {
   return (
 
     <section id="skills" p-20> 
-    <div class="px-8">
+
+    <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
       
-      <h1 class='text-[60px] font-display underline decoration-emerald-300 decoration-4 p-10 '>Skills</h1>
+      <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"> . Skills </h1>
 
       <div class='grid grid-cols-4 gap-4'>
 
