@@ -8,11 +8,13 @@ const Projects = () => {
     <section id="projects">
       <h1 class='text-[60px] font-display underline decoration-blue-300 decoration-4'> Projects</h1>
 
-      <div class="grid grid-cols-2 gap-4 bg-[#f9fafb]"> 
+      <div class="grid grid-cols-2 gap-10 pt-60px pl-24px pr-24px pb-70px"> 
 
 {/* Project 1: ToDo App */}
 
-  <div class="space-y-2"> 
+  <div class="space-y-2 bg-[#f9fafb] rounded-[20px] p-[40px]"> 
+
+    <div class="p-[20px]">
 
       <div class="flex flex-row ">
         <p class="text-slate-800 text-[30px] font-bold">To Do App</p>
@@ -31,13 +33,17 @@ const Projects = () => {
         <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">HTML</div> 
       </div>
 
-          <Image src="/../public/assets/todo-project.png" alt="project1" width="500" height="500"/>
+      <Image src="/../public/assets/todo-project.png" alt="project1" width="500" height="500"/>
     
     </div>
-
+    </div>
 
     {/* Project 2: Weather App */}
-          <div class="space-y-2">
+    
+    <div class="space-y-2 bg-[#f9fafb] rounded-[20px] p-[40px]"> 
+
+<div class="p-[20px]">
+
           <div class="flex flex-row ">
           <p class="text-slate-800 text-[30px] font-bold">Weather</p>
 
@@ -57,9 +63,18 @@ const Projects = () => {
       </div>
 
             <Image src="/../public/assets/weather-project.png" alt="project2" width="500" height="500"/>
+
+            </div>
         
 
   {/* Project 3: Coffee */}
+
+
+
+  <div class="space-y-2 bg-[#f9fafb] rounded-[20px] p-[40px]"> 
+
+<div class="p-[20px]">
+
 
   <div class="flex flex-row ">
           <p class="text-slate-800 text-[30px] font-bold">Coffee</p>
@@ -69,7 +84,9 @@ const Projects = () => {
 <button type="button" class="group flex text-sm items-center space-x-1 rounded-[100px] p-2 bg-gray-50 dark:bg-gray-800 text-black dark:text-white dark:hover:bg-gray-700 hover:bg-blue-100 hover:text-blue-600 transition-colors ease-in-out duration-300 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg><span>Demo</span></button>
 
 
+</div>
             </div>
+            
 
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi, recusandae corrupti at quos ipsa nam quas error facilis laudantium.</p>  
@@ -82,9 +99,15 @@ const Projects = () => {
 
 
 <Image src="/../public/assets/coffee-project.png" alt="project3" width="500" height="500"/>
+
+</div>
       
 
 {/* Project 4: Towers */}
+
+<div class="space-y-2 bg-[#f9fafb] rounded-[20px] p-[40px]"> 
+
+<div class="p-[20px]">
 
 <div class="flex flex-row ">
           <p class="text-slate-800 text-[30px] font-bold">Towers of Hanoi</p>
@@ -94,6 +117,7 @@ const Projects = () => {
 <button type="button" class="group flex text-sm items-center space-x-1 rounded-[100px] p-2 bg-gray-50 dark:bg-gray-800 text-black dark:text-white dark:hover:bg-gray-700 hover:bg-blue-100 hover:text-blue-600 transition-colors ease-in-out duration-300 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg><span>Demo</span></button>
 
 
+</div>
             </div>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi, recusandae corrupti at quos ipsa nam quas error facilis laudantium.</p> 
@@ -107,9 +131,14 @@ const Projects = () => {
 
             <Image src="/../public/assets/towers-project.png" alt="project4" width="500" height="500"/>
 
-
+</div>
 
 {/* Project 5: Portfolio */}
+
+
+<div class="space-y-2 bg-[#f9fafb] rounded-[20px] p-[40px]"> 
+
+<div class="p-[20px]"></div>
 
 <div class="flex flex-row ">
           <p class="text-slate-800 text-[30px] font-bold">Portfolio</p>
@@ -135,6 +164,7 @@ const Projects = () => {
 <Image src="/../public/assets/portfolio.png" alt="project5" width="500" height="500"/>
  
           
+          </div>
           </div>
         </div>
 
