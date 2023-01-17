@@ -1,6 +1,5 @@
 import React from 'react'
-import { RxVercelLogo } from 'react-icons/rx'
-import { FiGithub } from 'react-icons/fi'
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import Image from 'next/image'
 
 const Projects = () => {
@@ -16,21 +15,24 @@ const Projects = () => {
 {/* Project 1: ToDo App */}
 
         <div class="space-y-2">
+
+          <span class="flex">
           <Image src="/../public/assets/todo.png" alt="project1" width="500" height="500"/>
           <p class="text-slate-800 text-[20px] font-bold">To Do App</p>
+          <div class="flex">
+            <a href="https://github.com/cchow33/TODAY-todo-app" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsGithub size={30}/></a>
+
+            <a href="https://todo-app-carpediem.netlify.app/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsLinkedin size={30}/></a>
+          </div>
+          </span>
+
           <p>Get your life organized. 
           Productivity tool to keep you accountable!</p>  
 
           <div class="flex space-x-4">
-            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">JavaScript</div> 
-            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs">CSS</div> 
-            <div class="border border-blue-400 rounded-lg p-1 uppercase text-xs">HTML</div> 
-          </div>
-
-          <div class="flex">
-            <a href="https://github.com/cchow33/TODAY-todo-app" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/></a>
-
-            <a href="https://todo-app-carpediem.netlify.app/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/></a>
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">JavaScript</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">CSS</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">HTML</div> 
           </div>
 
     {/* Project 2: Weather App */}
@@ -40,15 +42,15 @@ const Projects = () => {
             <p>5 Day weather pulling data from the Open Weather API</p>  
 
           <div class="flex space-x-4">
-            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">React</div> 
-            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs"></div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">React</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">CSS</div> 
           </div>
 
           <div class="flex">
-            <a href="https://github.com/cchow33/5Day-React-Weather" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/>
+            <a href="https://github.com/cchow33/5Day-React-Weather" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsGithub size={30}/>
             </a>
 
-            <a href="https://5-day-react-weather.vercel.app/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/>              
+            <a href="https://5-day-react-weather.vercel.app/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsLinkedin size={30}/>              
             </a>
           </div>
 
@@ -58,15 +60,15 @@ const Projects = () => {
             <p>Website for coffee shop</p>  
 
             <div class="flex space-x-4">
-            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">React</div> 
-            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs">CSS</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">React</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">CSS</div> 
           </div>
 
           <div class="flex">
-            <a href="https://github.com/chingu-voyages/v41-toucans-team-04" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/>
+            <a href="https://github.com/chingu-voyages/v41-toucans-team-04" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsGithub size={30}/>
             </a>
 
-            <a href="https://toucan-coffee.netlify.app/shop/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/>              
+            <a href="https://toucan-coffee.netlify.app/shop/" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsLinkedin size={30}/>              
             </a>
           </div>
 
@@ -78,16 +80,16 @@ const Projects = () => {
             <p>Game moving pegs</p>  
 
             <div class="flex space-x-4">
-            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">JavaScript</div> 
-            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs">CSS</div> 
-            <div class="border border-blue-400 rounded-lg p-1 uppercase text-xs">HTML</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">JavaScript</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">CSS</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">HTML</div> 
           </div>
 
           <div class="flex">
-            <a href="https://github.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/>
+            <a href="https://github.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsGithub size={30}/>
             </a>
 
-            <a href="https://vercel.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/>              
+            <a href="https://vercel.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsLinkedin size={30}/>              
             </a>
           </div>
 
@@ -98,16 +100,16 @@ const Projects = () => {
             <p>Game moving pegs</p>  
 
             <div class="flex space-x-4">
-            <div class="border border-pink-400 rounded-lg p-1 uppercase text-xs">NextJS</div> 
-            <div class="border border-green-500 rounded-lg p-1 uppercase text-xs">Tailwind</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">NextJS</div> 
+            <div class="bg-black text-white border rounded-lg p-1 uppercase text-xs">Tailwind</div> 
 
           </div>
 
           <div class="flex">
-            <a href="https://github.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <FiGithub size={30}/>
+            <a href="https://github.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsGithub size={30}/>
             </a>
 
-            <a href="https://vercel.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <RxVercelLogo size={30}/>              
+            <a href="https://vercel.com/cchow33/towers-of-hanoi" class="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank"  without rel="noreferrer"> <BsLinkedin size={30}/>              
             </a>
           </div>
 
