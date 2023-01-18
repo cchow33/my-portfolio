@@ -10,7 +10,9 @@ const Main = () => {
     <div class = 'grid h-[80%] place-items-center'>
       <h1 class='text-[120px] font-display'>Carmen Chow</h1>
       <h2 class='text-[80px] font-display pb-[100px] mt-[0px]'>Front-end Developer</h2>
-      
+
+      {/* <div class="scrollDownIndicator-module--scrollDownIndicator--36u-R" style="transform: translateY(0px);"><span>scroll down</span></div>
+       */}
       <div class="flex">
     
         <a target="_blank" href="https://github.com/cchow33" rel="noopener noreferrer"  class="relative inline-block px-3 py-1 font-medium group m-[10px]"><BsGithub size={40}/></a>

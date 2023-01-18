@@ -10,6 +10,7 @@ module.exports = {
       display: ["Spectral", "serif"],
     },
     screens:{
+      // @media (min-width: 640px, 768px, 1024px, 1280px)
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
