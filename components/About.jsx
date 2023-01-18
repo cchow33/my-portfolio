@@ -9,14 +9,12 @@ const About = () => {
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[9%]'>
       
-      <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"><span class='text-[40px]'> 👋</span> About Me </h1>
-
+      <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px]"><span class='text-[40px]'> 👋</span> About Me </h1>
 
       <Image src="/../public/assets/photo.jpg" alt="/" width="100" height="100" class='border rounded-full border border-gray-300 border-4'/>
 
-      <p class='pt-[20px] text-[30px] font-display'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum ratione nobis autem culpa quidem, quod dolorum. Ex quidem omnis ipsam veritatis, commodi a suscipit aliquid! Fugit minus sint iste? Lour.</p> 
+      <p class='pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum ratione nobis autem culpa quidem, quod dolorum. Ex quidem omnis ipsam veritatis, commodi a suscipit aliquid! Fugit minus sint iste? Lour.</p> 
       
-
       <div>
         <p class="mt-[20px] mb-[20px] text-[40px]">When I/m not coding, I/m:</p>
         <ul>
