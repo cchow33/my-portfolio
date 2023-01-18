@@ -9,7 +9,7 @@ config.autoAddCss = false
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <ThemeProvider>
+      <ThemeProvider enableSystem={true}attribute="class">
         <Component {...pageProps} />
       </ThemeProvider>
     </>

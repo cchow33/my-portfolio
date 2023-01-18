@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { CgMenuRight } from 'react-icons/cg'
 import { RiEyeCloseLine } from 'react-icons/ri'
+import { ToggleButton } from './ToggleButton'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
@@ -12,10 +13,14 @@ const Navbar = () => {
   };
   
   return (
-  <header class= "bg-[#fcf2f1] h-[100%] pt-8">
+    <header class= "h-[100%] pt-8">
+    {/* <header class= "bg-[#fcf2f1] h-[100%] pt-8"> */}
     <div class="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[2%]  text-black navbar navbar-expand-lg navbar-light">
 
-    <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/>
+    {/* <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/> */}
+
+    <ToggleButton/>
+
 
     <nav class={`flex items-center w-auto`}>
       <ul class='flex items-center w-auto list none text-[25px]' >

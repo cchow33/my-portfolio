@@ -5,7 +5,8 @@ import { SiGmail }  from 'react-icons/si'
 const Contact = () => {
   return (
 
-    <section id="contact" class = 'bg-[#fcf2f1] place-items-center'>
+    <section id="contact" class = 'place-items-center'>
+          {/* <section id="contact" class = 'bg-[#fcf2f1] place-items-center'></section> */}
 
 {/* <section id="contact" class = 'bg-[#fcf2f1] grid h-screen place-items-center'> */}
 

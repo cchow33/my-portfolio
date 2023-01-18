@@ -1,23 +1,37 @@
 /** @type {import('tailwindcss').Config} */
 
+const colors = require('tailwindcss/colors');
+
 module.exports = {
+  mode: "jit",
   darkMode: 'class',
   content: [
-  "./pages/**/*.{js,ts,jsx,tsx}",
-  "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+    // typography: (theme) => ({}),
     fontFamily: {
       display: ["Spectral", "serif"],
     },
+    colors: {
+      gray: {
+        dark: "#9ca3af", // bg-gray-400
+        light: "#f3f4f6", // bg-gray-100
+      }
+    },
     screens:{
-      // @media (m479in-width: 640px, 768px, 1024px, 1280px)
+      // @media (min-width: 640px, 768px, 1024px, 1280px)
       'sm': '300px',
-      'md': 'px',
+      'md': '640px',
       'lg': '768px',
       'xl': '991px'
     }
   },
-  plugins: [],
+},
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }

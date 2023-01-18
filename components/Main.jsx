@@ -5,7 +5,8 @@ const Main = () => {
 
   return (
     
-    <section id="main" class='bg-[#fcf2f1] p-20'> 
+    <section id="main" class='p-20'> 
+    {/* <section id="main" class='bg-[#fcf2f1] p-20'>  */}
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]'>
     
     <div class = 'grid h-[80%] place-items-center'>
