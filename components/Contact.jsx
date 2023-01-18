@@ -6,9 +6,6 @@ const Contact = () => {
   return (
 
     <section id="contact" class = 'place-items-center'>
-          {/* <section id="contact" class = 'bg-[#fcf2f1] place-items-center'></section> */}
-
-{/* <section id="contact" class = 'bg-[#fcf2f1] grid h-screen place-items-center'> */}
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] py-[10%]'>
       
