@@ -8,7 +8,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
   
   return (
-  <header class= "bg-[#fcf2f1] py-2">
+  <header class= "bg-[#fcf2f1] h-[100%] pt-8">
     <div class="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[2%]  text-black navbar navbar-expand-lg navbar-light">
 
     <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/>
