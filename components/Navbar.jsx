@@ -13,7 +13,9 @@ const Navbar = () => {
 
     <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/>
 
-    <CgMenuRight class="md:hidden block h-12 w-12 cursor-pointer" onClick={() => setNavbar(!open)}
+
+  <div class='md:hidden'></div>
+    <CgMenuRight class="md:hidden block h-12 w-12 cursor-pointer" onClick={() => setNavbar(!navbar)}
     />
 
     <nav class={`flex items-center w-auto`}>
