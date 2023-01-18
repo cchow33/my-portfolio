@@ -5,12 +5,14 @@ import { SiGmail }  from 'react-icons/si'
 const Contact = () => {
   return (
 
-    <section id="contact" class = 'bg-[#fcf2f1] grid h-screen place-items-center'>
+    <section id="contact" class = 'bg-[#fcf2f1] place-items-center'>
 
-    <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
+{/* <section id="contact" class = 'bg-[#fcf2f1] grid h-screen place-items-center'> */}
+
+    <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] py-[10%]'>
       
-    <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]">. Contact</h1>
-    <p class="font-display text-[30px]">Have a question? Want to hire me, work together or just want to say hello? Email me at <span class="underline">reach.cchow@gmail.com</span> </p>
+    <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"><span class='text-[40px] mr-[5px]'> ✉️ </span> Contact</h1>
+    <p class="font-display text-[30px]">Have a question? Want to hire me, work together or just want to say hello? <br></br>Email me at <span class="underline">reach.cchow@gmail.com</span> and let's chat!</p>
       
       <span class="flex">
         <a target="_blank" href="https://github.com/cchow33" rel="noopener noreferrer"  class="relative inline-block py-5 pr-4 font-medium group m-[10px]"><BsGithub size={40}/></a>

@@ -5,12 +5,12 @@ const Projects = () => {
 
   return (
 
-    <section id="projects" class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%]'>
+    <section id="projects" class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[10%]'>
      
       <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px]"><span class='text-[30px]'> 💻</span> Projects</h1>
-      <p class="font-display text-[30px]">Check out some things I built</p>
+      <p class="font-display text-[30px]">Check out some things I have built:</p>
 
-      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[10%] 
+      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[5%] 
     grid grid-cols-2 gap-x-5 gap-y-3'>
 
 {/* Project 1: ToDo App */}
