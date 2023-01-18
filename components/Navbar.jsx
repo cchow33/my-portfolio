@@ -6,6 +6,10 @@ import { RiEyeCloseLine } from 'react-icons/ri'
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
+
+  const handleNav = () => {
+    setNavbar(!navbar);
+  };
   
   return (
   <header class= "bg-[#fcf2f1] h-[100%] pt-8">
@@ -13,13 +17,7 @@ const Navbar = () => {
 
     <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/>
 
-
-  <div class='md:hidden'></div>
-    <CgMenuRight class="md:hidden block h-12 w-12 cursor-pointer" onClick={() => setNavbar(!navbar)}
-    />
-
     <nav class={`flex items-center w-auto`}>
-    {/* <nav class={`${open ? "block" : "hidden"} flex items-center w-auto`}> */}
       <ul class='flex items-center w-auto list none text-[25px]' >
 
       <a href="#about" class="relative inline-block px-3 py-1 font-medium group m-[10px] ">
@@ -43,6 +41,28 @@ const Navbar = () => {
       <span class="relative text-black group-hover:text-white">Contact</span></a>
     </ul>
 
+    {/* Mobile Button */}
+    <div onClick={handleNav} class='block sm:hidden'>
+      {navbar ? (
+        <RiEyeCloseLine size={14}/> 
+        ) : (
+        <CgMenuRight size={14}/> 
+        )}
+    </div>
+
+    {/* Mobile Menu */}
+
+    <div class={
+      navbar ? 'sm:hidden flex justify-center items-center w-full' : 'sm:hidden'
+    }>
+
+      <ul>
+        <li onClick={handleNav}>About</li>
+        <li onClick={handleNav}>Skills</li>
+        <li onClick={handleNav}>Projects</li>
+        <li onClick={handleNav}>Contact</li>
+      </ul>
+    </div>
     </nav>
     </div>
     </header>

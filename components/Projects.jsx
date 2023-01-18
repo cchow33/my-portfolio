@@ -120,7 +120,9 @@ const Projects = () => {
 
     <div class="flex space-x-4">
       <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">NodeJS</div> 
-      <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">Tailwind</div>
+      <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">ReactJS</div> 
+      <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">NextJS</div> 
+      <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">Tailwind CSS</div>
     </div>
 
     <Image src="/../public/assets/portfolio-project.png" alt="project5" width="500" height="500" class="mt-[10%] mb-[10%]"/>
