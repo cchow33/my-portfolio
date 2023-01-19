@@ -9,7 +9,7 @@ const About = () => {
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[5%]'>
       
-      <h1 class="text-[50px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]">. About Me </h1>
+      <h1 class="text-[50px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px] ">. About Me </h1>
 
       <Image src="/../public/assets/photo.jpg" alt="/" width="100" height="100" class='border rounded-full border border-gray-300 border-4'/>
 
