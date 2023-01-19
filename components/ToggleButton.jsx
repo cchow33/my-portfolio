@@ -11,14 +11,19 @@ export const ToggleButton = () => {
 
     if(currentTheme === "dark"){
       return (
-        <BsSun className="mt-[2%] w-7 h-7 text-yellow-200 fixed" role="button" onClick={() => setTheme('light')}/>
+        <button onClick={() => setTheme('light')} class="text-[#e9756b] font-black pb-[10%] sm:[10px]] ">lighten</button>
+
+        // <BsSun className="mt-[2%] w-7 h-7 text-yellow-200" role="button" onClick={() => setTheme('light')}/>
       )
     }
 
     else{
       return (
-        <MdDarkMode className="w-7 h-7 text-gray-900 fixed" role="button"
-        onClick={() => setTheme('dark')}/>
+        // <MdDarkMode className="w-7 h-7 text-gray-900" role="button"
+        // onClick={() => setTheme('dark')}/>
+
+
+        <button onClick={() => setTheme('dark')} class="text-[#e9756b] font-black pb-[10%] sm:[10px]] ">darken</button>
       )
     }
   }
