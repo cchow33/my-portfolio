@@ -5,11 +5,11 @@ import { SiGmail }  from 'react-icons/si'
 const Contact = () => {
   return (
 
-    <section id="contact" class = 'place-items-center'>
+    <section id="contact" class = 'place-items-center bg-[#fcf2f1]'>
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] py-[10%]'>
       
-    <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]"><span class='text-[40px] mr-[5px]'> ✉️ </span> Contact</h1>
+    <h1 class="decoration-purple-300 decoration-4 text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]"> . Contact</h1>
     <p class="font-display text-[30px] leading-loose sm:text-[22px] xl:text-[30px]">Have a question? <br></br> Want to hire me, work together or just want to say hello? <br></br>Email me at <span class="underline">reach.cchow@gmail.com</span> and let's chat!</p>
       
       <span class="flex">

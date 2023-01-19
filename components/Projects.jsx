@@ -8,7 +8,7 @@ const Projects = () => {
 
     <section id="projects" class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[10%] '>
      
-      <h1 class= "decoration-4 text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]"><span class='text-[30px]'> 💻</span> Projects</h1>
+      <h1 class= "decoration-4 text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]">. Projects</h1>
       <p class="font-display text-[30px] sm:text-[22px] xl:text-[30px]">Check out some things I have built:</p>
 
       <div class= 'xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[5%] xl:grid grid-cols-2 gap-x-5 gap-y-3 sm:flex flex-col'>
@@ -19,7 +19,7 @@ const Projects = () => {
 
     <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100">To Do App</p>
 
-    <p class="mb-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi, recusandae corrupti at quos ipsa nam quas error facilis laudantium.</p>
+    <p class="mb-[20px]">A todo app to help you organize and inispired to complete all your daily tasks, mundane or otherwise. </p>
 
     <div class="flex space-x-4">
       <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">JavaScript</div> 

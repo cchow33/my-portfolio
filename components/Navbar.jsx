@@ -13,14 +13,11 @@ const Navbar = () => {
   };
   
   return (
-    <header class= "h-[100%] pt-8">
-    {/* <header class= "bg-[#fcf2f1] h-[100%] pt-8"> */}
+    <header class= "bg-[#fcf2f1] h-[100%] pt-8">
+    {/* <header class= "bg-[#edc4ec] h-[100%] pt-8"> */}
     <div class="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[2%]  text-black navbar navbar-expand-lg navbar-light">
 
-    {/* <Image src="/../public/assets/tag.png" alt="/" width="60" height="60"/> */}
-
-    <ToggleButton/>
-
+    <p class="text-[#e9756b] font-black sticky top-0 sm:[10px]">carmen | chow</p>
 
     <nav class={`flex items-center w-auto`}>
       <ul class='flex items-center w-auto list none text-[25px]' >
@@ -45,6 +42,8 @@ const Navbar = () => {
       <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
       <span class="relative text-black group-hover:text-white">Contact</span></a>
     </ul>
+
+    <ToggleButton/>
 
     {/* Mobile Button */}
     <div onClick={handleNav} class='block sm:hidden'>
