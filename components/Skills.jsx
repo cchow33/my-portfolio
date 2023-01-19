@@ -10,13 +10,13 @@ const Skills = () => {
 
   return (
     <section id="skills" class="py-20"> 
-      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[5%]'>
+      <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[8%]'>
       
-      <h1 class="decoration-[#e9756b] text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[70px]"> . Technology </h1>
+      <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[60px] font-poppins"> Technology </h1>
 
       <p class="font-display text-[30px] mb-[2%] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">Tools I use to get the job done</p>
 
-      <div class='grid grid-cols-4 gap-5 pt-[30px] sm:pl-[10%]'>
+      <div class='grid grid-cols-4 gap-5 pt-[8%] sm:pl-[10%]'>
 
         <span><SiJavascript size={60}/> Javascript</span>
         <span><AiFillHtml5 size={60}/> HTML5</span>

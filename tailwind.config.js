@@ -11,16 +11,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-    // typography: (theme) => ({}),
-    fontFamily: {
+      fontFamily: {
       display: ["Spectral", "serif"],
-    },
-    colors: {
-      gray: {
-        dark: "#9ca3af", // bg-gray-400
-        light: "#f3f4f6", // bg-gray-100
-      }
-    },
+      poppins: ["Poppins", "sans-serif"],
+      },
+      colors: {
+        gray: {
+          dark: "#9ca3af", 
+          light: "#f3f4f6",
+        }
+      },
     screens:{
       // @media (min-width: 640px, 768px, 1024px, 1280px)
       'sm': '300px',

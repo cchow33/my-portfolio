@@ -4,10 +4,6 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 const Main = () => {
 
   return (
-     
-    // <section id="main" class='p-20 bg-[#0f172a]'>   
-    // <section id="main" class='p-20 bg-[#edc4ec]'>  
-
     <section id="main" class='p-20 bg-[#fcf2f1]'>   
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]'>
