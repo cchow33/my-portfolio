@@ -13,11 +13,8 @@ const Contact = () => {
     <p class="font-display text-[30px] leading-loose sm:text-[22px] xl:text-[30px]">Have a question? <br></br> Want to hire me, work together or just want to say hello? <br></br>Email me at <span class="underline">reach.cchow@gmail.com</span> and let/s chat!</p>
       
       <span class="flex">
-        <a target="_blank" href="https://github.com/cchow33" rel="noopener noreferrer" class="relative inline-block py-5 pr-4 font-medium group m-[10px] 
-        
-        border-2 border-[#ff5555] rounded-full 
-        hover:shadow-[box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4)]">
-          
+        <a target="_blank" href="https://github.com/cchow33" rel="noopener noreferrer" class="relative inline-block py-5 pr-4 font-medium group m-[10px] ">
+
         <BsGithub size={40}/></a>
        
         <a target="_blank" href="https://www.linkedin.com/in/carmen-cchow" rel="noopener noreferrer"  class="relative inline-block py-5 pr-4 font-medium group m-[10px]"><BsLinkedin size={40}/></a>
