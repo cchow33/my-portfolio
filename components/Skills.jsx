@@ -14,7 +14,8 @@ const Skills = () => {
       
       <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[60px] font-poppins"> Technology </h1>
 
-      <p class="font-display text-[30px] mb-[2%] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">Tools I use to get the job done</p>
+      <p class="font-display text-[30px] mb-[2%] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">Tools I use to 
+      <span class="pl-[8px] font-bold text-[#ff5555]">get the job done</span></p>
 
       <div class='grid grid-cols-4 gap-5 pt-[8%] sm:pl-[10%]'>
 

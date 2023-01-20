@@ -22,7 +22,6 @@ export const ToggleButton = () => {
         // <MdDarkMode className="w-7 h-7 text-gray-900" role="button"
         // onClick={() => setTheme('dark')}/>
 
-
         <button onClick={() => setTheme('dark')} class="text-[#e9756b] font-black pb-[10%] sm:[10px]] ">darken</button>
       )
     }

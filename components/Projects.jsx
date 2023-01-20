@@ -8,18 +8,20 @@ const Projects = () => {
 
     <section id="projects" class='xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[10%] '>
      
-     <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[60px] font-poppins">Projects</h1>
+     <h1 class="underline decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[40px] sm:mt-[20px] xl:text-[60px] font-poppins">Projects</h1>
       <p class="font-display text-[30px] sm:text-[22px] xl:text-[30px]">Check out some things I have built:</p>
 
-      <div class= 'mb-[20%] xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%] pt-[5%] xl:grid grid-cols-2 gap-x-5 gap-y-3 sm:flex flex-col'>
+      <div class= 'mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pl-[1%] pr-[1%] pt-[5%] xl:grid grid-cols-2 gap-x-5 gap-y-3 sm:flex flex-col'>
+
+      {/* <div class= 'mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pl-[1%] pr-[1%] pt-[5%] xl:grid grid-cols-2 gap-x-5 gap-y-3 sm:flex flex-col'> */}
 
 {/* Project 1: ToDo App */}
 
   <div class="bg-gray-100 dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]"> 
 
-    <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100">To Do App</p>
+    <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100 xl:text-[44px]">To Do App</p>
 
-    <p class="mb-[20px]">A todo app to help you organize and inispired to complete all your daily tasks, mundane or otherwise. </p>
+    <p class="mb-[20px] xl:text-[26px]">A todo app to help you organize and inispired to complete all your daily tasks, mundane or otherwise. </p>
 
     <div class="flex space-x-4">
       <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">JavaScript</div> 

@@ -13,11 +13,12 @@ const Navbar = () => {
   };
   
   return (
-    <header class="h-[100%]">
-    <div class="pt-[2%] flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[2%] bg-[#fcf2f1] text-black navbar navbar-expand-lg navbar-light">
+    <header class="h-[100%] p-16 bg-[#fcf2f1]">
+
+    <div class="pt-[2%] flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full bg-[#fcf2f1] text-black navbar navbar-expand-lg navbar-light">
 
     <span class="flex-col">
-      <p class="text-[#e9756b] font-black pb-[10%] sm:[10px]">carmen | chow</p>
+      <p class="text-[#e9756b] font-black pb-[10%] sm:text-[10px] xl:text-[30px]">carmen | chow</p>
       <ToggleButton/>
     </span>
 

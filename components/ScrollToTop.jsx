@@ -32,7 +32,6 @@ const ScrollToTop = () => {
       <button
         type="button"
         onClick={scrollToTop}
-        // class="hover:bg-black text-white rounded-full"
       >
         <span class="content-center">
         <BsArrowUpCircle size={30} aria-hidden="true" class="content-center"/> 
