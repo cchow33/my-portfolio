@@ -5,8 +5,6 @@ const Main = () => {
 
   return (
 
-    // <header class="h-[100%] p-20 bg-[#fcf2f1]"></header>
-
     <main class='p-20 bg-[#fcf2f1] flex items-center w-auto expand'>   
 
     <div class='xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]'>
