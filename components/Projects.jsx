@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import altru from "../assets/altru-project.png";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
 
 const Projects = () => {
@@ -47,8 +48,10 @@ const Projects = () => {
             </div>
           </div>
 
-          <Image
-            src="/../public/assets/altru-project.png"
+          {/* <Image */}
+          <img
+            // src="/../public/assets/altru-project.png"
+            src={altru}
             alt="project1"
             width="500"
             height="500"
