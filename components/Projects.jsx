@@ -336,7 +336,8 @@ const Projects = () => {
             </div>
           </div>
 
-          <Image
+          {/* <Image */}
+          <img
             src="/../public/assets/weather-project.png"
             alt="project5"
             width="500"
