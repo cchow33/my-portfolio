@@ -375,7 +375,7 @@ const Projects = () => {
             Todo App
           </p>
 
-          <p class="mb-[20px]">A to-do app to organize your daily tasks</p>
+          <p class="mb-[20px]">A TODO app to organize your daily tasks</p>
 
           <div class="flex space-x-4">
             <div class="text-black bg-gray-200  border-solid border-2 rounded-lg p-1 uppercase text-xs">
