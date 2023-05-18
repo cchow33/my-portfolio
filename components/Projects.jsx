@@ -1,5 +1,6 @@
 import React from "react";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -280,7 +281,7 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/towers-project.png"
+            src="/portfolio-project.png"
             alt="project5"
             width="500"
             height="500"
@@ -310,7 +311,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project 5: Portfolio */}
+        {/* Project 5: Weather App */}
 
         <div class="bg-gray-100 dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
           <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100">
@@ -366,7 +367,7 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* Project 6: Portfolio */}
+        {/* Project 6: Todo*/}
 
         <div class="bg-gray-100 dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
           <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100">
@@ -388,7 +389,7 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/assets/todo-project.png"
+            src="/todo-project.png"
             alt="project5"
             width="500"
             height="500"

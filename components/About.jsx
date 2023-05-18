@@ -1,5 +1,5 @@
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,13 +10,11 @@ const About = () => {
         </h1>
 
         <Image
-          src="/altru-project.png"
-          // src="/photo.jpg"
+          src="/photo.jpg"
           alt="profile"
           width="100"
           height="100"
           class="rounded-full border-gray-300 border-4"
-          // class="border rounded-full border border-gray-300 border-4"
         />
 
         <p class="pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px] xl:text-[30px]">
