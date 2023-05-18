@@ -10,12 +10,13 @@ const About = () => {
         </h1>
 
         <Image
-          src="/tag.png"
+          src="/altru-project.png"
           // src="/photo.jpg"
           alt="profile"
           width="100"
           height="100"
-          class="border rounded-full border border-gray-300 border-4"
+          class="rounded-full border-gray-300 border-4"
+          // class="border rounded-full border border-gray-300 border-4"
         />
 
         <p class="pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px] xl:text-[30px]">
