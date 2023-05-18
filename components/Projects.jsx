@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-// import altru from "../assets/altru-project.png";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
 
 const Projects = () => {
@@ -50,7 +48,6 @@ const Projects = () => {
 
           <Image
             src="/altru-project.png"
-            // src="/../public/assets/altru-project.png"
             alt="project1"
             width="500"
             height="500"
@@ -119,7 +116,6 @@ const Projects = () => {
 
           <Image
             src="/trello-project.png"
-            // src="/../public/assets/trello-project.png"
             alt="project2"
             width="500"
             height="500"
@@ -229,7 +225,6 @@ const Projects = () => {
 
           <Image
             src="/towers-project.png"
-            // src="/../public/assets/towers-project.png"
             alt="project4"
             width="500"
             height="500"
@@ -286,7 +281,6 @@ const Projects = () => {
 
           <Image
             src="/towers-project.png"
-            // src="/../public/assets/portfolio-project.png"
             alt="project5"
             width="500"
             height="500"
@@ -342,9 +336,7 @@ const Projects = () => {
           </div>
 
           <Image
-            // <img
             src="/weather-project.png"
-            // src="/../public/assets/weather-project.png"
             alt="project5"
             width="500"
             height="500"
@@ -397,7 +389,6 @@ const Projects = () => {
 
           <Image
             src="/assets/todo-project.png"
-            // src="/../public/assets/todo-project.png"
             alt="project5"
             width="500"
             height="500"
