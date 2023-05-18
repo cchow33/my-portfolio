@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import altru from "../assets/altru-project.png";
+// import altru from "../assets/altru-project.png";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
 
 const Projects = () => {
@@ -21,7 +21,7 @@ const Projects = () => {
 
         <div class="bg-gray-100 dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
           <p class="text-slate-800 text-[30px] font-bold dark:text-gray-100 xl:text-[44px]">
-            Altru-Connect
+            1. Altru-Connect
           </p>
 
           <p class="mb-[20px]">
@@ -48,10 +48,9 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* <Image */}
-          <img
+          <Image
+            src="/altru-project.png"
             // src="/../public/assets/altru-project.png"
-            src={altru}
             alt="project1"
             width="500"
             height="500"
@@ -119,7 +118,8 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/../public/assets/trello-project.png"
+            src="/trello-project.png"
+            // src="/../public/assets/trello-project.png"
             alt="project2"
             width="500"
             height="500"
@@ -228,7 +228,8 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/../public/assets/towers-project.png"
+            src="/towers-project.png"
+            // src="/../public/assets/towers-project.png"
             alt="project4"
             width="500"
             height="500"
@@ -284,7 +285,8 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/../public/assets/portfolio-project.png"
+            src="/towers-project.png"
+            // src="/../public/assets/portfolio-project.png"
             alt="project5"
             width="500"
             height="500"
@@ -339,9 +341,10 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* <Image */}
-          <img
-            src="/../public/assets/weather-project.png"
+          <Image
+            // <img
+            src="/weather-project.png"
+            // src="/../public/assets/weather-project.png"
             alt="project5"
             width="500"
             height="500"
@@ -393,7 +396,8 @@ const Projects = () => {
           </div>
 
           <Image
-            src="/../public/assets/todo-project.png"
+            src="/assets/todo-project.png"
+            // src="/../public/assets/todo-project.png"
             alt="project5"
             width="500"
             height="500"
