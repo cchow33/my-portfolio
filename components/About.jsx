@@ -10,8 +10,9 @@ const About = () => {
         </h1>
 
         <Image
-          src="/photo.jpg"
-          alt="/"
+          src="/tag.png"
+          // src="/photo.jpg"
+          alt="profile"
           width="100"
           height="100"
           class="border rounded-full border border-gray-300 border-4"
