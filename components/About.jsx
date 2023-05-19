@@ -18,9 +18,9 @@ const About = () => {
         />
 
         <p class="pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px] xl:text-[30px]">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam earum
-          ratione nobis autem culpa quidem, quod dolorum. Ex quidem omnis ipsam
-          veritatis, commodi a suscipit aliquid! Fugit minus sint iste? Lour.
+          I'm a Frontend Developer based in Toronto, Canada who enjoys problem
+          solving and building user-centred beautiful UI. Lifelong learning and
+          self-improvement. readable, modular code
         </p>
 
         <div>

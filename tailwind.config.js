@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-const colors = require('tailwindcss/colors');
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
-  darkMode: 'class',
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -12,24 +12,31 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-      display: ["Spectral", "serif"],
-      poppins: ["Poppins", "sans-serif"],
+        display: ["Spectral", "serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         gray: {
-          dark: "#9ca3af", 
+          dark: "#9ca3af",
           light: "#f3f4f6",
-        }
+        },
       },
-    screens:{
-      // @media (min-width: 640px, 768px, 1024px, 1280px)
-      'sm': '300px',
-      'md': '640px',
-      'lg': '768px',
-      'xl': '991px'
-    }
+
+      screens: {
+        // @media (min-width: 640px, 768px, 1024px, 1280px)
+        sm: "300px",
+        md: "640px",
+        lg: "768px",
+        xl: "991px",
+      },
+    },
   },
-},
-  plugins: [
-  ],
-}
+  plugins: [],
+
+  variants: {
+    extend: {
+      backgroundColor: ["dark"],
+      textColor: ["dark"],
+    },
+  },
+};
