@@ -19,14 +19,14 @@ const Navbar = () => {
           <p class="text-[#e9756b] font-black pb-[10%] sm:text-[10px] xl:text-[30px]">
             carmen | chow
           </p>
-          <ToggleButton />
+          {/* <ToggleButton /> */}
         </span>
 
         <nav class={`flex items-center w-auto`}>
           <ul className="flex items-center w-auto list none text-[25px]">
             <a
               href="#about"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] "
+              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
             >
               <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
               <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
             <a
               href="#skills"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] "
+              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
             >
               <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
               <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <a
               href="#projects"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] "
+              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
             >
               <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
               <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
@@ -59,7 +59,7 @@ const Navbar = () => {
 
             <a
               href="#contact"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] "
+              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
             >
               <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
               <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>

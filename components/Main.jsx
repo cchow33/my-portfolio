@@ -1,5 +1,6 @@
 import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { HiDocumentText } from "react-icons/hi";
 
 const Main = () => {
   return (
@@ -32,6 +33,15 @@ const Main = () => {
               class="relative inline-block px-3 py-1 font-medium group m-[10px]"
             >
               <BsLinkedin size={40} />
+            </a>
+
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/13UZxgVMTDyZklTF3JHaHPQY7pl8LJ9Qk/view?usp=sharing"
+              rel="noopener noreferrer"
+              class="relative inline-block px-3 py-1 font-medium group m-[10px]"
+            >
+              <HiDocumentText size={44} />
             </a>
           </div>
         </div>
