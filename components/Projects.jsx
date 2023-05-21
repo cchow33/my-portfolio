@@ -6,16 +6,16 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      class="xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[10%] "
+      class="xl:max-w-7xl xl:mx-auto max-w-full xs: pl-[8%] pr-[0%] pt-[10%] "
     >
       <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
         Projects
       </h1>
 
-      <div class="mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pl-[1%] pr-[1%] pt-[5%] xl:grid grid-cols-2 gap-x-5 gap-y-3 sm:flex flex-col">
+      <div class="w-100 mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pl-[1%] pr-[1%] pt-[0%] xl:grid grid-cols-2 gap-x-5 gap-y-3 xm:flex flex-col">
         {/* Project 1: Altru App */}
 
-        <div class=" dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
+        <div class="p-[40px] m-[40px]">
           <div class="flex flex-row justify-between mt-10px">
             <p class="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
               Altru-Connect
@@ -48,7 +48,7 @@ const Projects = () => {
             organizations. Users can perform CRUD applications to their profile
             and track the donations they made and the events they attend.
             <p class="italic font-bold mt-3">
-              MongoDB, Express, NodeJS, Firebase
+              React, MongoDB, Express, NodeJS, ContextAPI, Firebase, RESTful API
             </p>
           </p>
 
@@ -96,7 +96,8 @@ const Projects = () => {
             CRUD operations like create a board or a card, edit, archive, delete
             a card and add users to their board.
             <p class="italic font-bold mt-3">
-              React, JWT, MongoDB/Mongoose, Express, NodeJS, Bcrypt, CSS
+              React, Redux, JWT, React DND, MongoDB/Mongoose, RESTful API,
+              Express, NodeJS, Bcrypt, CSS
             </p>
           </p>
 
@@ -109,59 +110,15 @@ const Projects = () => {
           />
         </div>
 
-        {/* Project 3: Towers of Hanoi */}
+        {/* Project 3: Portfolio */}
 
         <div class=" dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
-          <div class="flex flex-row justify-between mt-10px">
-            <p class="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
-              Towers of Hanoi
-            </p>
-
-            <div class="flex flex-row justify-end mt-10px">
-              <a
-                href="https://github.com/cchow33/towers-of-hanoi"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="ml-[8px] group flex text-sm items-center space-x-1  
-                 text-black "
-              >
-                <BsGithub size={24} />
-              </a>
-
-              <a
-                href="https://towers-of-hanoi-eta.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="ml-[8px] group flex text-sm items-center space-x-1 p-2 text-black"
-              >
-                <BsLink45Deg size={24} />
-              </a>
-            </div>
-          </div>
-
-          <p class="mb-[20px]">
-            Famous Tower of Hanoi game
-            <p class="italic font-bold mt-3">JavaScript, CSS, HTML</p>
-          </p>
-
-          <Image
-            src="/towers-project.png"
-            alt="project4"
-            width="400"
-            height="100"
-            class="mt-[10%] mb-[10%]"
-          />
-        </div>
-
-        {/* Project 4: Portfolio */}
-
-        <div class=" dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
-          <div class="flex flex-row justify-between mt-10px">
+          <div class="flex flex-row justify-between mt-5px">
             <p class="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
               Portfolio
             </p>
 
-            <div class="flex flex-row justify-end mt-10px">
+            <div class="flex flex-row justify-end mt-5px">
               <a
                 href="https://github.com/cchow33/my-portfolio"
                 target="_blank"
@@ -197,7 +154,7 @@ const Projects = () => {
           />
         </div>
 
-        {/* Project 5: Weather App */}
+        {/* Project 4: Weather App */}
 
         <div class=" dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
           <div class="flex flex-row justify-between mt-10px">
@@ -243,7 +200,7 @@ const Projects = () => {
           />
         </div>
 
-        {/* Project 6: Todo*/}
+        {/* Project 5: Todo*/}
 
         <div class=" dark:bg-gray-800 rounded-[20px] p-[40px] m-[40px]">
           <div class="flex flex-row justify-between mt-10px">
@@ -285,7 +242,7 @@ const Projects = () => {
             alt="project5"
             width="400"
             height="100"
-            class="mt-[10%] mb-[10%]"
+            class="mt-[0%] mb-[10%]"
           />
         </div>
       </div>

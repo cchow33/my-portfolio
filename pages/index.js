@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import About from "../components/About";
@@ -12,10 +10,10 @@ import ScrollToTop from "../components/ScrollToTop";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Main />
       {/* <ScrollToTop /> */}
-      <About />
+      {/* <About /> */}
       <Skills />
       <Projects />
       <Contact />

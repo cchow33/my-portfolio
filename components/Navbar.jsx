@@ -1,9 +1,6 @@
 import { React, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
 import { CgMenuRight } from "react-icons/cg";
 import { RiEyeCloseLine } from "react-icons/ri";
-import { ToggleButton } from "./ToggleButton";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -13,13 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <header class="h-[100%] p-16 bg-[#fcf2f1]">
-      <div class="pt-[2%] flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full bg-[#fcf2f1] text-black navbar navbar-expand-lg navbar-light">
+    <header class="h-[100%] p-8 bg-[#fcf2f1]">
+      <div class="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full bg-[#fcf2f1] text-black navbar navbar-expand-lg navbar-light">
         <span class="flex-col">
           <p class="text-[#e9756b] font-black pb-[10%] sm:text-[10px] xl:text-[30px]">
             carmen | chow
           </p>
-          {/* <ToggleButton /> */}
         </span>
 
         <nav class={`flex items-center w-auto`}>
