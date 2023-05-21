@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section
-      id="contact"
+      id="Contact"
       class="place-items-center bg-[#fcf2f1] flex items-center w-full"
     >
       <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] py-[10%]">

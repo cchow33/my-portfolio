@@ -5,6 +5,8 @@ import { RiEyeCloseLine } from "react-icons/ri";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
+  const links = ["Skills", "Projects", "Contact"];
+
   const handleNav = () => {
     setNavbar(!navbar);
   };
@@ -20,72 +22,38 @@ const Navbar = () => {
 
         <nav class={`flex items-center w-auto`}>
           <ul className="flex items-center w-auto list none text-[25px]">
-            <a
-              href="#about"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
-            >
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
-              <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
-              <span class="relative text-black group-hover:text-white">
-                About
-              </span>
-            </a>
+            {links.map((link) => (
+              <a
+                href={`#${link}`}
+                key={link}
+                class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
+              >
+                <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
 
-            <a
-              href="#skills"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
-            >
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
-              <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
-              <span class="relative text-black group-hover:text-white">
-                Skills
-              </span>
-            </a>
+                <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
 
-            <a
-              href="#projects"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
-            >
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
-              <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
-              <span class="relative text-black group-hover:text-white">
-                Projects
-              </span>
-            </a>
-
-            <a
-              href="#contact"
-              class="relative inline-block px-3 py-1 font-medium group m-[10px] sm:text-[14px] md:text-[18px] lg:text-[20px]"
-            >
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0  rounded-[10px]"></span>
-              <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black  rounded-[10px]"></span>
-              <span class="relative text-black group-hover:text-white">
-                Contact
-              </span>
-            </a>
+                <span class="relative text-black group-hover:text-white">
+                  {link}
+                </span>
+              </a>
+            ))}
           </ul>
 
           {/* Mobile Button */}
-          <div onClick={handleNav} class="block sm:hidden">
+          {/* <div onClick={handleNav} class="block sm:hidden">
             {navbar ? <RiEyeCloseLine size={14} /> : <CgMenuRight size={14} />}
-          </div>
+          </div> */}
 
           {/* Mobile Menu */}
 
-          <div
-            class={
-              navbar
-                ? "sm:hidden flex justify-center items-center w-full"
-                : "sm:hidden"
-            }
-          >
+          {/* <div class={navbar ? "xs:hidden" : "xs:hidden"}>
             <ul>
               <li onClick={handleNav}>About</li>
               <li onClick={handleNav}>Skills</li>
               <li onClick={handleNav}>Projects</li>
               <li onClick={handleNav}>Contact</li>
             </ul>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>

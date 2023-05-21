@@ -10,9 +10,9 @@ import ScrollToTop from "../components/ScrollToTop";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Main />
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       {/* <About /> */}
       <Skills />
       <Projects />
