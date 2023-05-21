@@ -20,21 +20,23 @@ const Skills = () => {
     {
       items: [
         {
-          icons: SiJavascript,
-          text: "JavaScript",
+          icons: DiReact,
+          text: "React",
         },
         {
-          icons: SiTailwindcss,
-          text: "Tailwind CSS",
+          icons: TbBrandNextjs,
+          text: "Nextjs",
+        },
+
+        {
+          icons: SiRedux,
+          text: "Redux",
         },
         {
           icons: SiMongodb,
           text: "MongoDB",
         },
-        {
-          icons: SiRedux,
-          text: "Redux",
-        },
+
         {
           icons: SiJquery,
           text: "JQuery",
@@ -43,10 +45,7 @@ const Skills = () => {
           icons: SiExpress,
           text: "Express",
         },
-        {
-          icons: TbBrandNextjs,
-          text: "Nextjs",
-        },
+
         {
           icons: BsBootstrap,
           text: "Bootstrap",
@@ -56,8 +55,13 @@ const Skills = () => {
           text: "Git",
         },
         {
-          icons: DiReact,
-          text: "React",
+          icons: SiJavascript,
+          text: "JavaScript",
+        },
+
+        {
+          icons: SiTailwindcss,
+          text: "Tailwind CSS",
         },
       ],
     },
@@ -66,17 +70,18 @@ const Skills = () => {
   return (
     <section id="skills" class="py-20">
       <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[8%]">
-        <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
+        <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
           Skills
         </h1>
 
-        <p class="font-display text-[30px] mb-[2%] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">
-          {/* Tools I use to
+        <p class="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">
+          Tools I use to
           <span class="pl-[8px] font-bold text-[#ff5555]">
             get the job done
-          </span> */}
+          </span>
         </p>
-        <div class="grid grid-cols-4 gap-5 pt-[8%] sm:pl-[10%]">
+
+        <div class="grid grid-cols-4 gap-5 pt-[8%] xs:grid grid-cols-3 gap-5">
           {skills.map((e, i) => {
             return (
               <>
@@ -84,9 +89,9 @@ const Skills = () => {
                   return (
                     <span
                       key={i}
-                      class="sm:text-[14px] md:text-[20px] lg:text-[18px]"
+                      class="xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px]"
                     >
-                      <span>
+                      <span class="xs:text-[20px] sm:text-[20px] md:text-[30px] lg:text=[40px]">
                         <e.icons />
                       </span>
                       <span>{e.text}</span>

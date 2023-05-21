@@ -7,7 +7,7 @@ import { HiDocumentText } from "react-icons/hi";
 const Main = () => {
   return (
     <div class="bg-[#faf6f6]">
-      <main class="p-10 bg-[#f9f3f2] flex items-center w-auto expand">
+      <main class="bg-[#faf6f6] p-10 flex items-center w-auto expand">
         <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]">
           <div class="grid h-[80%] place-items-center">
             <Image
@@ -17,10 +17,10 @@ const Main = () => {
               height="150"
               class="rounded-full border-gray-300 border-4"
             />
-            <h1 class="mt-[5px] text-[120px] sm:text-[40px] xl:text-[40px] font-poppins">
+            <h1 class="mt-[5px] text-[120px] xs:text-[40px] sm:text-[40px] xl:text-[40px] font-poppins">
               Carmen Chow
             </h1>
-            <h2 class="text-[80px] font-display sm:text-[18px] pb-[60px] mt-[24px] xl:text-[30px]">
+            <h2 class="text-[80px] font-display xs:text-[18px] sm:text-[18px] pb-[60px] mt-[24px] xl:text-[30px]">
               I am a Toronto-based
               <span class="text-[#e9756b] ml-[7px] mr-[7px]">
                 Front-end Developer

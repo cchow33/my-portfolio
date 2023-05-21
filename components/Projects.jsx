@@ -8,7 +8,7 @@ const Projects = () => {
       id="projects"
       class="xl:max-w-7xl xl:mx-auto max-w-full xs: pl-[8%] pr-[0%] pt-[10%] "
     >
-      <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
+      <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
         Projects
       </h1>
 
