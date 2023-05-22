@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         display: ["Spectral", "serif"],
         poppins: ["Poppins", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
       },
       colors: {
         gray: {

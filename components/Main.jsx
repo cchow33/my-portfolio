@@ -13,11 +13,12 @@ const Main = () => {
             <Image
               src="/photo.jpg"
               alt="profile"
+              t
               width="150"
               height="150"
               class="rounded-full border-gray-300 border-4"
             />
-            <h1 class="mt-[5px] text-[120px] xs:text-[40px] sm:text-[40px] xl:text-[40px] font-poppins">
+            <h1 class="mt-[5px] text-[120px] xs:text-[34px] sm:text-[40px] xl:text-[40px] font-playfair font-bold">
               Carmen Chow
             </h1>
             <h2 class="text-[80px] font-display xs:text-[18px] sm:text-[18px] pb-[60px] mt-[24px] xl:text-[30px]">

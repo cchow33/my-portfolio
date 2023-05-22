@@ -69,8 +69,8 @@ const Skills = () => {
 
   return (
     <section id="Skills" class="py-20">
-      <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[8%] pr-[5%] pt-[8%]">
-        <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-poppins">
+      <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[5%] pt-[8%]">
+        <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[22px] sm:mt-[20px] xl:text-[34px] font-poppins">
           Skills
         </h1>
 
