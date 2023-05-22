@@ -59,7 +59,7 @@ const Projects = () => {
   return (
     <section
       id="Projects"
-      class="xl:max-w-7xl xl:mx-auto max-w-full xs: pl-[5%] pr-[0%] pt-[10%] place-items-center"
+      class="xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[5%] pt-[8%]"
     >
       <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[22px] sm:mt-[20px] xl:text-[34px] font-poppins">
         Projects
