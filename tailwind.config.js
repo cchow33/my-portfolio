@@ -24,7 +24,6 @@ module.exports = {
       },
 
       screens: {
-        // @media (min-width: 640px, 768px, 1024px, 1280px)
         xs: "200px",
         sm: "320px",
         md: "640px",
@@ -34,11 +33,4 @@ module.exports = {
     },
   },
   plugins: [],
-
-  variants: {
-    extend: {
-      backgroundColor: ["dark"],
-      textColor: ["dark"],
-    },
-  },
 };

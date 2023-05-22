@@ -5,7 +5,7 @@ export default function Document() {
     <Html className="dark">
       <Head />
       <link rel="shortcut icon" href="/favicon/icon.png" />
-      <body className="dark:bg-gray-900 dark:text-gray-100 font-family: display">
+      <body className="font-family: display">
         <Main />
         <NextScript />
       </body>

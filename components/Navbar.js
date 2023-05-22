@@ -1,15 +1,11 @@
 import { React, useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
-import { RiEyeCloseLine } from "react-icons/ri";
+import { GrClose } from "react-icons/gr";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   const links = ["Skills", "Projects", "Contact"];
-
-  const handleNav = () => {
-    setNavbar(!navbar);
-  };
 
   return (
     <header class="h-[100%] p-8 bg-[#fcf2f1]">
@@ -20,8 +16,8 @@ const Navbar = () => {
           </p>
         </span>
 
-        <nav class={`flex items-center w-auto`}>
-          <ul className="flex items-center w-auto list none text-[25px]">
+        <nav class="flex items-center w-auto">
+          <ul className="md:flex items-center w-auto list none text-[25px]">
             {links.map((link) => (
               <a
                 href={`#${link}`}
@@ -39,22 +35,13 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile Button */}
-          {/* <div onClick={handleNav} class="block sm:hidden">
-            {navbar ? <RiEyeCloseLine size={14} /> : <CgMenuRight size={14} />}
-          </div> */}
-
-          {/* Mobile Menu */}
-
-          {/* <div class={navbar ? "xs:hidden" : "xs:hidden"}>
-            <ul>
-              <li onClick={handleNav}>About</li>
-              <li onClick={handleNav}>Skills</li>
-              <li onClick={handleNav}>Projects</li>
-              <li onClick={handleNav}>Contact</li>
-            </ul>
-          </div> */}
+          <button>
+            <GrClose size={20} />
+          </button>
         </nav>
+        <button>
+          <CgMenuRight size={46} />
+        </button>
       </div>
     </header>
   );
