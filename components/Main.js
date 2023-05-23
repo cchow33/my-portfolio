@@ -6,14 +6,13 @@ import { HiDocumentText } from "react-icons/hi";
 
 const Main = () => {
   return (
-    <div class="bg-[#faf6f6]">
-      <main class="bg-[#faf6f6] p-10 flex items-center w-auto expand">
-        <div class="xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]">
-          <div class="grid h-[80%] place-items-center">
+    <div class="bg-[#fcf2f1] pt-16">
+      <main class="pt-16 p-30 flex items-center w-auto expand">
+        <div class="py-100 xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]">
+          <div class="my-30 grid h-[80%] place-items-center">
             <Image
               src="/photo.jpg"
               alt="profile"
-              t
               width="150"
               height="150"
               class="rounded-full border-gray-300 border-4"
