@@ -14,7 +14,7 @@ const Projects = () => {
           description:
             "A full-stack MERN application that connects volunteers to organizations. Users can perform CRUD applications to their profile and track the donations they made and the events they attend.",
           technology:
-            "React, MongoDB, Express, NodeJS, ContextAPI, Firebase, RESTful API",
+            "React, MongoDB, Express, NodeJS, Firebase Auth, RESTful API",
         },
         {
           title: "Trellify",
@@ -35,16 +35,16 @@ const Projects = () => {
           technology: "React, NextJS, Tailwind CSS",
         },
         {
-          title: "Weather App",
+          title: "Weatherly",
           code: "https://github.com/cchow33/5Day-React-Weather",
           src: "/weather-project.png",
-          link: "https://5-day-react-weather.vercel.app/",
+          link: "https://weatherly-iota.vercel.app/",
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iustoquasi, recusandae corrupti at quos ipsa nam quas error facilis",
           technology: "React, CSS, HTML, Axios",
         },
         {
-          title: "Todo App",
+          title: "Today",
           code: "https://github.com/cchow33/TODAY-todo-app",
           src: "/todo-project.png",
           link: "https://today-todo-app.vercel.app/",
