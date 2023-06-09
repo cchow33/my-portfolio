@@ -13,7 +13,7 @@ const Contact = () => {
       >
         Have a question or an opportunity for me? Email me at
         <a href="mailto:reach.cchow@gmail.com" class="underline ml-2 mr-2">
-          reach.cchow@gmail.com{" "}
+          reach.cchow@gmail.com
         </a>
         and let me help bring your project to life.
       </p>

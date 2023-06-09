@@ -10,6 +10,7 @@ const Projects = () => {
           title: "Altru-Connect",
           code: "https://github.com/cchow33/altru-volunteer",
           src: "/altru-project.png",
+          video: "",
           link: "https://altru-frontend.vercel.app/",
           description:
             "A full-stack MERN application that connects volunteers to organizations. Users can perform CRUD applications to their profile and track the donations they made and the events they attend.",
@@ -19,7 +20,9 @@ const Projects = () => {
         {
           title: "Trellify",
           code: "https://github.com/cchow33/trello-agile",
-          src: "/trello-project.png",
+          video: "/trellify.mp4",
+          width: "",
+          height: "",
           link: "https://trello-agile.vercel.app/register",
           description:
             "A kanban task-management app inspired by Trello. Users can perform CRUD operations like create a board or a card, edit, archive, delete a card and add users to their board.",
@@ -29,7 +32,6 @@ const Projects = () => {
         {
           title: "Portfolio",
           code: "https://github.com/cchow33/my-portfolio",
-          src: "/portfolio-project.png",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
           description: "Personal portfolio with open source projects",
           technology: "React, NextJS, Tailwind CSS",
@@ -37,7 +39,8 @@ const Projects = () => {
         {
           title: "Weatherly",
           code: "https://github.com/cchow33/5Day-React-Weather",
-          src: "/weather-project.png",
+          // src: "/weather-project.png",
+          video: "/weather.mp4",
           link: "https://weatherly-iota.vercel.app/",
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iustoquasi, recusandae corrupti at quos ipsa nam quas error facilis",
@@ -46,7 +49,8 @@ const Projects = () => {
         {
           title: "Today",
           code: "https://github.com/cchow33/TODAY-todo-app",
-          src: "/todo-project.png",
+          // src: "/todo-project.png",
+          video: "/todo.mp4",
           link: "https://today-todo-app.vercel.app/",
           description:
             " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iustoquasi, recusandae corrupti at quos ipsa nam quas error facilis",
@@ -103,13 +107,22 @@ const Projects = () => {
                       <p class="italic font-bold mt-3">{item.technology}</p>
                     </p>
 
-                    <Image
+                    {/* <Image
                       src={item.src}
                       alt={item.title}
                       width="400"
                       height="100"
                       class="mt-[10%] mb-[10%]"
-                    />
+                    /> */}
+
+                    <video
+                      loop
+                      autoPlay
+                      muted
+                      // style={{ width: "600px", height: "700px" }}
+                    >
+                      <source src={item.video} type="video/mp4" />
+                    </video>
                   </div>
                 );
               })}
