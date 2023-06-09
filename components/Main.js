@@ -63,7 +63,7 @@ const Main = () => {
 
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/13UZxgVMTDyZklTF3JHaHPQY7pl8LJ9Qk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BYbF9BNK-U9CGnkHyJ1D1smxla_yz2c2/view?usp=sharing"
                 rel="noopener noreferrer"
                 class="relative inline-block px-1 py-0 font-medium group m-[10px]"
               >

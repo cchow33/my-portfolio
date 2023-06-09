@@ -11,7 +11,7 @@ const Contact = () => {
         class="font-display text-[20px] 
       leading-loose  xs:text-[14px] sm:text-[18px] xl:text-[18px]"
       >
-        Have a question or want to hire me? Email me at
+        Have a question or an opportunity for me? Email me at
         <a href="mailto:reach.cchow@gmail.com" class="underline ml-2 mr-2">
           reach.cchow@gmail.com{" "}
         </a>

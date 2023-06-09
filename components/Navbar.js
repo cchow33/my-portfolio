@@ -3,7 +3,7 @@ import { CgMenuRight } from "react-icons/cg";
 import { GrClose } from "react-icons/gr";
 
 const Navbar = () => {
-  const links = ["Skills", "Projects", "Contact"];
+  const links = ["Projects", "Skills", "Contact"];
 
   const [navbar, setNavbar] = useState(false);
 

@@ -74,12 +74,7 @@ const Skills = () => {
           Skills
         </h1>
 
-        <p class="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]">
-          Tools I use to
-          <span class="pl-[8px] font-bold text-[#ff5555]">
-            get the job done
-          </span>
-        </p>
+        <p class="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]"></p>
 
         <div class="grid grid-cols-4 gap-5 pt-[8%] xs:grid grid-cols-3 gap-5">
           {skills.map((e, i) => {
