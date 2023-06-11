@@ -21,8 +21,7 @@ const Projects = () => {
           title: "Trellify",
           code: "https://github.com/cchow33/trello-agile",
           video: "/trellify.mp4",
-          width: "",
-          height: "",
+          src: "trello.png",
           link: "https://trello-agile.vercel.app/register",
           description:
             "A kanban task-management app inspired by Trello. Users can perform CRUD operations like create a board or a card, edit, archive, delete a card and add users to their board.",
@@ -120,6 +119,7 @@ const Projects = () => {
                       autoPlay
                       muted
                       style={{ width: "600px", height: "350px" }}
+                      class="mt-[10%] mb-[10%]"
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>
