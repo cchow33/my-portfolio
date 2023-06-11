@@ -33,13 +33,14 @@ const Projects = () => {
           title: "Portfolio",
           code: "https://github.com/cchow33/my-portfolio",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
+          video: "",
+          src: "portfolio-project.png",
           description: "Personal portfolio with open source projects",
           technology: "React, NextJS, Tailwind CSS",
         },
         {
           title: "Weatherly",
           code: "https://github.com/cchow33/5Day-React-Weather",
-          // src: "/weather-project.png",
           video: "/weather.mp4",
           link: "https://weatherly-iota.vercel.app/",
           description:
@@ -49,7 +50,6 @@ const Projects = () => {
         {
           title: "Today",
           code: "https://github.com/cchow33/TODAY-todo-app",
-          // src: "/todo-project.png",
           video: "/todo.mp4",
           link: "https://today-todo-app.vercel.app/",
           description:
@@ -107,13 +107,13 @@ const Projects = () => {
                       <p class="italic font-bold mt-3">{item.technology}</p>
                     </p>
 
-                    {/* <Image
+                    <Image
                       src={item.src}
                       alt={item.title}
                       width="400"
                       height="100"
                       class="mt-[10%] mb-[10%]"
-                    /> */}
+                    />
 
                     <video
                       loop
