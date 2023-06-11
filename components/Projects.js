@@ -10,7 +10,7 @@ const Projects = () => {
           title: "Altru-Connect",
           code: "https://github.com/cchow33/altru-volunteer",
           src: "/altru-project.png",
-          video: "./volunteer.mp4",
+          video: "/volunteer.mp4",
           link: "https://altru-frontend.vercel.app/",
           description:
             "A full-stack MERN application that connects volunteers to organizations. Users can perform CRUD applications to their profile and track the donations they made and the events they attend.",
