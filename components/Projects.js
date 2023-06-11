@@ -21,7 +21,7 @@ const Projects = () => {
           title: "Trellify",
           code: "https://github.com/cchow33/trello-agile",
           video: "/trellify.mp4",
-          src: "trello.png",
+          src: "/trello.png",
           link: "https://trello-agile.vercel.app/register",
           description:
             "A kanban task-management app inspired by Trello. Users can perform CRUD operations like create a board or a card, edit, archive, delete a card and add users to their board.",
@@ -32,7 +32,7 @@ const Projects = () => {
           title: "Portfolio",
           code: "https://github.com/cchow33/my-portfolio",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
-          video: "",
+          video: "/portfolio.mp4",
           src: "portfolio-project.png",
           description: "Personal portfolio with open source projects",
           technology: "React, NextJS, Tailwind CSS",
