@@ -33,7 +33,6 @@ const Projects = () => {
           code: "https://github.com/cchow33/my-portfolio",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
           video: "/portfolio.mp4",
-          src: "portfolio-project.png",
           description: "Personal portfolio with open source projects",
           technology: "React, NextJS, Tailwind CSS",
         },
