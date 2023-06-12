@@ -42,8 +42,8 @@ const Projects = () => {
           video: "/weather.mp4",
           link: "https://weatherly-iota.vercel.app/",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iustoquasi, recusandae corrupti at quos ipsa nam quas error facilis",
-          technology: "React, CSS, HTML, Axios",
+            "React weather app that fetches live weather data from the OpenWeatherMap API",
+          technology: "React, CSS, HTML",
         },
         {
           title: "Today",
@@ -51,7 +51,7 @@ const Projects = () => {
           video: "/todo.mp4",
           link: "https://today-todo-app.vercel.app/",
           description:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iustoquasi, recusandae corrupti at quos ipsa nam quas error facilis",
+            "A to-do app to help you keep track of your daily tasks.",
           technology: "JavaScript, HTML, CSS",
         },
       ],

@@ -21,16 +21,16 @@ const Main = () => {
               Carmen Chow
             </h1>
             <h2 class="text-[80px] font-display xs:text-[18px] sm:text-[18px] pb-[60px] mt-[24px] xl:text-[30px]">
-              I am a Toronto-based
+              I am
               <span class="text-[#e9756b] ml-[7px] mr-[7px]">
                 Front-end Developer
               </span>
-              with a passion for building and designing beautiful web-based user
-              interfaces. A lifelong learning, peripatic traveller and on the
-              quest for self-improvement. When I'm not debugging or writing code
-              I'm currently training for my first 10K and looking to make a
-              positive impactful contribution to a missions-driven software
-              team.
+              with a passion for designing and building web-based user
+              interfaces. When I'm not writing or debugging code, you'll find me
+              training for a 10K race or happily playing tourist in my hometown
+              of Toronto, after spending the past decade living abroad.
+              {/* to make a positive impactful contribution to a missions-driven
+              software team. */}
             </h2>
 
             <div class="flex pt-[0%]">
