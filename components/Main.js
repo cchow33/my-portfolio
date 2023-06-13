@@ -29,8 +29,6 @@ const Main = () => {
               interfaces. When I'm not writing or debugging code, you'll find me
               training for a 10K race or happily playing tourist in my hometown
               of Toronto, after spending the past decade living abroad.
-              {/* to make a positive impactful contribution to a missions-driven
-              software team. */}
             </h2>
 
             <div class="flex pt-[0%]">
@@ -63,7 +61,7 @@ const Main = () => {
 
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1BYbF9BNK-U9CGnkHyJ1D1smxla_yz2c2/view?usp=sharing"
+                href="https://drive.google.com/file/d/13UZxgVMTDyZklTF3JHaHPQY7pl8LJ9Qk/view?usp=sharing"
                 rel="noopener noreferrer"
                 class="relative inline-block px-1 py-0 font-medium group m-[10px]"
               >
