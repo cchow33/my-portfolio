@@ -105,13 +105,15 @@ const Projects = () => {
                       <p class="italic font-bold mt-3">{item.technology}</p>
                     </p>
 
-                    <Image
-                      src={item.src}
-                      alt={item.title}
-                      width="400"
-                      height="100"
-                      class="mt-[10%] mb-[10%]"
-                    />
+                    {item.src && (
+                      <Image
+                        src={item.src}
+                        alt={item.title}
+                        width="400"
+                        height="100"
+                        class="mt-[10%] mb-[10%]"
+                      />
+                    )}
 
                     <video
                       loop
