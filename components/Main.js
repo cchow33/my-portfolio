@@ -6,10 +6,10 @@ import { HiDocumentText } from "react-icons/hi";
 
 const Main = () => {
   return (
-    <div class="bg-[#fcf2f1] pt-16">
+    <div class="bg-[#eff0ff] pt-16">
       <main class="pt-16 p-30 flex items-center w-auto expand">
         <div class="py-100 xl:max-w-7xl xl:mx-auto max-w-full pl-[5%] pr-[5%]">
-          <div class="my-30 grid h-[80%] place-items-center">
+          <div class="my-30 grid h-[85%] place-items-center">
             <Image
               src="/photo.jpg"
               alt="profile"
@@ -20,18 +20,18 @@ const Main = () => {
             <h1 class="mt-[5px] text-[120px] xs:text-[34px] sm:text-[40px] xl:text-[40px] font-playfair font-bold">
               Carmen Chow
             </h1>
-            <h2 class="text-[80px] font-display xs:text-[18px] sm:text-[18px] pb-[60px] mt-[24px] xl:text-[30px]">
+            <h2 class="text-[80px] font-display xs:text-[18px] sm:text-[20px] pb-[60px] mt-[24px] xl:text-[30px]">
               I am
               <span class="text-[#e9756b] ml-[7px] mr-[7px]">
                 Front-end Developer
               </span>
               with a passion for designing and building web-based user
-              interfaces. When I'm not writing or debugging code, you'll find me
-              training for a 10K race or happily playing tourist in my hometown
-              of Toronto, after spending the past decade living abroad.
+              interfaces. When I'm not writing code you can find me planning my
+              next travel adventure or looking for the best cheap eats in
+              Toronto.
             </h2>
 
-            <div class="flex pt-[0%]">
+            <div class="flex pt-[0%] pb-[10%]">
               <a
                 target="_blank"
                 href="mailto:reach.cchow@gmail.com"
@@ -59,14 +59,14 @@ const Main = () => {
                 <BsLinkedin size={30} />
               </a>
 
-              <a
+              {/* <a
                 target="_blank"
                 href="https://drive.google.com/file/d/13UZxgVMTDyZklTF3JHaHPQY7pl8LJ9Qk/view?usp=sharing"
                 rel="noopener noreferrer"
                 class="relative inline-block px-1 py-0 font-medium group m-[10px]"
               >
                 <HiDocumentText size={34} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

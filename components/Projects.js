@@ -13,7 +13,7 @@ const Projects = () => {
           video: "/volunteer.mp4",
           link: "https://altru-frontend.vercel.app/",
           description:
-            "A full-stack MERN application that connects volunteers to organizations. Users can perform CRUD applications to their profile and track the donations they made and the events they attend.",
+            "Altru is a volunteer platform that connects users to  charitable organizations in Toronto. Users can sign up for volunteering events or make donations to support great causes. Altru’s aim is to make it easier for everyone to make a tangible impact on the causes that truly matter to them.",
           technology:
             "React, MongoDB, Express, NodeJS, Firebase Auth, RESTful API",
         },
@@ -24,7 +24,7 @@ const Projects = () => {
           src: "/trello.png",
           link: "https://trello-agile.vercel.app/register",
           description:
-            "A kanban task-management app inspired by Trello. Users can perform CRUD operations like create a board or a card, edit, archive, delete a card and add users to their board.",
+            "Trellify is a kanban task-management app inspired by the popular collaboration tool, Trello. Users can perform different  operations, including creating boards, editing, archiving, and delete cards, as well as inviting other users to collaborate on their boards.",
           technology:
             "React, Redux, JWT, React DND, MongoDB/Mongoose, RESTful API, Express, NodeJS, Bcrypt, CSS",
         },
@@ -33,7 +33,8 @@ const Projects = () => {
           code: "https://github.com/cchow33/my-portfolio",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
           video: "/portfolio.mp4",
-          description: "Personal portfolio with open source projects",
+          description:
+            "My personal portfolio with a selection of open source projects I worked on.",
           technology: "React, NextJS, Tailwind CSS",
         },
         {
@@ -42,7 +43,7 @@ const Projects = () => {
           video: "/weather.mp4",
           link: "https://weatherly-iota.vercel.app/",
           description:
-            "React weather app that fetches live weather data from the OpenWeatherMap API",
+            "Weatherly is a user-friendly weather app that provides current weather conditions by fetching live weather data from the OpenWeatherMap API",
           technology: "React, CSS, HTML",
         },
         {
@@ -51,7 +52,7 @@ const Projects = () => {
           video: "/todo.mp4",
           link: "https://today-todo-app.vercel.app/",
           description:
-            "A to-do app to help you keep track of your daily tasks.",
+            "Today is a to-do app designed to help you stay organized and focused by keeping track of your daily tasks.",
           technology: "JavaScript, HTML, CSS",
         },
       ],
