@@ -4,7 +4,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
-  darkMode: "class",
+  // darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -12,7 +12,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Spectral", "serif"],
         poppins: ["Poppins", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
         inter: ["Inter", "serif"],

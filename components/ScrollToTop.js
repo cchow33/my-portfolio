@@ -30,11 +30,11 @@ const ScrollToTop = () => {
   return (
     <div className="fixed bottom-2 right-2 pb-[30px] px-[2%] ">
       <button type="button" onClick={scrollToTop}>
-        <span class="xs: text-am content-center">
+        <span className="xs: text-am content-center">
           <BsArrowUpCircle
             size={30}
             aria-hidden="true"
-            class="content-center"
+            className="content-center"
           />
         </span>
       </button>

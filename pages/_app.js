@@ -14,9 +14,7 @@ export default function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/favicon.ico" />
         <title>Carmen Chow</title>
       </Head>
-      <ThemeProvider enableSystem={true} attribute="class">
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <Component {...pageProps} />
     </>
   );
 }

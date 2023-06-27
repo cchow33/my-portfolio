@@ -62,29 +62,29 @@ const Projects = () => {
   return (
     <section
       id="Projects"
-      class="xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[5%] pt-[8%]"
+      className="xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[5%] pt-[8%]"
     >
-      <h1 class="decoration-4 font-black underline decoration-[#ff5555] text-[60px] mb-[20px] xs:text-[20px] sm:text-[22px] sm:mt-[20px] xl:text-[34px] font-poppins">
+      <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-playfair">
         Projects
       </h1>
 
-      <div class="w-100 mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pt-[0%] xl:grid grid-cols-2 gap-x-25 gap-y-3 xm:flex flex-col place-items-center ">
-        {projects.map((project, i) => {
+      <div className="w-100 mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pt-[0%] xl:grid grid-cols-2 gap-x-25 gap-y-3 xm:flex flex-col place-items-center ">
+        {projects.map((project, idx) => {
           return (
-            <>
+            <div key={idx}>
               {project.items.map((item, i) => {
                 return (
-                  <div key={i} class="p-[40px] m-[40px]">
-                    <div class="flex flex-row justify-between mt-10px">
-                      <p class="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
+                  <div key={i} className="p-[40px] m-[40px]">
+                    <div className="flex flex-row justify-between mt-10px">
+                      <p className="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
                         {item.title}
                       </p>
-                      <div class="flex flex-row justify-end mt-10px">
+                      <div className="flex flex-row justify-end mt-10px">
                         <a
                           href={item.code}
                           target="_blank"
                           rel="noopener noreferrer"
-                          class="ml-[8px] group flex text-sm items-center space-x-1  
+                          className="ml-[8px] group flex text-sm items-center space-x-1  
                           text-black "
                         >
                           <BsGithub size={24} />
@@ -94,17 +94,17 @@ const Projects = () => {
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          class="ml-[8px] group flex text-sm items-center space-x-1 p-2 text-black"
+                          className="ml-[8px] group flex text-sm items-center space-x-1 p-2 text-black"
                         >
                           <BsLink45Deg size={24} />
                         </a>
                       </div>
                     </div>
 
-                    <p class="sm:mb-[20px] xs:mb-[10px]">
+                    <div className="sm:mb-[20px] xs:mb-[10px]">
                       {item.description}
-                      <p class="italic font-bold mt-3">{item.technology}</p>
-                    </p>
+                      <p className="italic font-bold mt-3">{item.technology}</p>
+                    </div>
 
                     {item.src && (
                       <Image
@@ -112,7 +112,7 @@ const Projects = () => {
                         alt={item.title}
                         width="400"
                         height="100"
-                        class="mt-[10%] mb-[10%]"
+                        className="mt-[10%] mb-[10%]"
                       />
                     )}
 
@@ -121,14 +121,14 @@ const Projects = () => {
                       autoPlay
                       muted
                       style={{ width: "600px", height: "350px" }}
-                      class="mt-[10%] mb-[10%]"
+                      className="mt-[10%] mb-[10%]"
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>
                   </div>
                 );
               })}
-            </>
+            </div>
           );
         })}
       </div>
