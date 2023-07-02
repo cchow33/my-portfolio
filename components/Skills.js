@@ -27,8 +27,8 @@ const Skills = () => {
 
         <p className="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]"></p>
 
-        <div className="pt-[8%] pl-[8%]">
-          <h2>Frontend:</h2>
+        <motion.div className="pt-[8%] pl-[8%]">
+          {/* <h2>Frontend:</h2> */}
           {frontend.map((skill, idx) => {
             return (
               <>
@@ -42,7 +42,7 @@ const Skills = () => {
               </>
             );
           })}
-        </div>
+        </motion.div>
 
         <motion.div
           className="pt-[8%] pl-[8%]"
@@ -50,7 +50,7 @@ const Skills = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 3 }}
         >
-          Backend
+          {/* Backend */}
         </motion.div>
 
         {backend.map((skill, i) => {
