@@ -1,19 +1,20 @@
 import React from "react";
 import { BsGithub, BsLink45Deg } from "react-icons/bs";
 import Image from "next/image";
+import { motion as m } from "framer-motion";
 
 const Projects = () => {
   const projects = [
     {
       items: [
         {
-          title: "Altru-Connect",
+          title: "Volunteer Connect",
           code: "https://github.com/cchow33/altru-volunteer",
-          src: "/altru-project.png",
+          src: "/volunteer.png",
           video: "/volunteer.mp4",
           link: "https://altru-frontend.vercel.app/",
           description:
-            "Altru is a volunteer platform that connects users to  charitable organizations in Toronto. Users can sign up for volunteering events or make donations to support great causes. Altru’s aim is to make it easier for everyone to make a tangible impact on the causes that truly matter to them.",
+            "Volunteer Connect is a volunteer platform that connects users to  charitable organizations in Toronto. Users can sign up for volunteering events or make donations to support great causes. Volunteer Connect’s aim is to make it easier for everyone to make a tangible impact on the causes that truly matter to them.",
           technology:
             "React, MongoDB, Express, NodeJS, Firebase Auth, RESTful API",
         },
@@ -33,6 +34,7 @@ const Projects = () => {
           code: "https://github.com/cchow33/my-portfolio",
           link: "https://my-portfolio-53xxis2x7-cchow33.vercel.app/",
           video: "/portfolio.mp4",
+          src: "/portfolio-project.png",
           description:
             "My personal portfolio with a selection of open source projects I worked on.",
           technology: "React, NextJS, Tailwind CSS",
@@ -41,6 +43,7 @@ const Projects = () => {
           title: "Weatherly",
           code: "https://github.com/cchow33/5Day-React-Weather",
           video: "/weather.mp4",
+          src: "/weather-project.png",
           link: "https://weatherly-iota.vercel.app/",
           description:
             "Weatherly is a user-friendly weather app that provides current weather conditions by fetching live weather data from the OpenWeatherMap API",
@@ -51,6 +54,7 @@ const Projects = () => {
           code: "https://github.com/cchow33/TODAY-todo-app",
           video: "/todo.mp4",
           link: "https://today-todo-app.vercel.app/",
+          src: "/todo-project.png",
           description:
             "Today is a to-do app designed to help you stay organized and focused by keeping track of your daily tasks.",
           technology: "JavaScript, HTML, CSS",
@@ -74,7 +78,7 @@ const Projects = () => {
             <div key={idx}>
               {project.items.map((item, i) => {
                 return (
-                  <div key={i} className="p-[40px] m-[40px]">
+                  <m.div key={i} className="p-[40px] m-[40px]">
                     <div className="flex flex-row justify-between mt-10px">
                       <p className="text-slate-800 text-[22px] font-bold dark:text-gray-100 xl:text-[20px]">
                         {item.title}
@@ -125,7 +129,7 @@ const Projects = () => {
                     >
                       <source src={item.video} type="video/mp4" />
                     </video>
-                  </div>
+                  </m.div>
                 );
               })}
             </div>

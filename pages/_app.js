@@ -4,38 +4,31 @@ import { useRouter } from "next/router";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Head from "next/head";
 import { config } from "@fortawesome/fontawesome-svg-core";
+import { motion as m } from "framer-motion";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
-import { motion } from "framer-motion";
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   return (
     <>
-      <AnimatePresence onExitComplete>
-        <motion.div
+      <Head>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <title>Carmen Chow</title>
+      </Head>
+      <AnimatePresence>
+        <m.div
           key={router.route}
-          initial="initalState"
+          initial="initialState"
           animate="animateState"
           exit="exitState"
-          transition={{ duration: 0.75 }}
-          variants={{
-            initialState: {
-              opacity: 0,
-            },
-            animateState: {
-              opactiy: 1,
-            },
-            exitState: {},
+          transition={{
+            duration: 0.75,
           }}
         >
-          <Head>
-            <link rel="shortcut icon" href="/favicon.ico" />
-            <title>Carmen Chow</title>
-          </Head>
-          <Component {...pageProps} />
-        </motion.div>
+          <Component key={router.pathname} {...pageProps} />
+        </m.div>
       </AnimatePresence>
     </>
   );

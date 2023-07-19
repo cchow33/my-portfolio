@@ -1,10 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 const Skills = () => {
-  const backend = ["MongoDB", "Express", "NodeJS"];
-
-  const frontend = [
+  const skills = [
     "React",
     "Nextjs",
     "Redux",
@@ -14,9 +12,10 @@ const Skills = () => {
     "JavaScript",
     "TailwindCSS",
     "HTML/CSS",
+    "MongoDB",
+    "Express",
+    "NodeJS",
   ];
-
-  const tools = ["Postman", "Git"];
 
   return (
     <section id="Skills" className="py-20 font-inter">
@@ -27,51 +26,23 @@ const Skills = () => {
 
         <p className="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]"></p>
 
-        <motion.div className="pt-[8%] pl-[8%]">
-          {/* <h2>Frontend:</h2> */}
-          {frontend.map((skill, idx) => {
-            return (
-              <>
-                <p
-                  key={idx}
-                  className="xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px] pl-[8%]"
-                >
-                  <span className="xs:text-[20px] sm:text-[20px] md:text-[30px] lg:text=[40px]"></span>
-                  <span>{skill}</span>
-                </p>
-              </>
-            );
-          })}
-        </motion.div>
-
-        <motion.div
-          className="pt-[8%] pl-[8%]"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 3 }}
-        >
-          {/* Backend */}
-        </motion.div>
-
-        {backend.map((skill, i) => {
-          return (
-            <>
-              <span
-                key={i}
-                className="xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px] pl-[8%]"
-              >
-                <span className="xs:text-[20px] sm:text-[20px] md:text-[30px] lg:text=[40px]"></span>
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1.5, duration: 3 }}
-                >
-                  {skill}
-                </motion.span>
-              </span>
-            </>
-          );
-        })}
+        {skills.map((skill, i) => (
+          <m.div
+            key={i}
+            className="pt-[2%] pl-[8%] xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px] pl-[8%]"
+            initial={{
+              opacity: 0,
+              // translateX: -50,
+              // translateY: -50,
+              translateX: i % 2 === 0 ? -50 : 50,
+              translateY: -50,
+            }}
+            animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+            transition={{ duration: 0.3, delay: i * 0.2 }}
+          >
+            <span>{skill}</span>
+          </m.div>
+        ))}
       </div>
     </section>
   );
