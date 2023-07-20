@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-playfair">
           About Me
         </h1>
-        <Image src="/greece.jpg" alt="profile" width="500" height="400" />
+        {/* <Image src="/greece.jpg" alt="profile" width="500" height="400" /> */}
         <p className="pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px] xl:text-[30px]">
           I'm a Frontend Developer based in Toronto, Canada who enjoys problem
           solving and building user-centred beautiful UI. Lifelong learning and
@@ -34,11 +34,6 @@ const About = () => {
               🥪 looking for the best banh mi sandwiches in the city
             </li>
           </ul>
-          <Image src="/map.png" alt="profile" width="500" height="400" />
-          <a href="https://www.freepik.com/free-vector/blue-watercolor-map-world_20157123.htm#query=watercolor%20world%20map&position=3&from_view=search&track=ais#position=3&query=watercolor%20world%20map">
-            Image by Vectonauta
-          </a>
-          on Freepik
         </div>
       </div>
     </section>

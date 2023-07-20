@@ -68,7 +68,8 @@ const Projects = () => {
         Projects
       </h1>
 
-      <div className="w-100 mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pt-[0%] xl:grid grid-cols-2 gap-x-25 gap-y-3 xm:flex flex-col place-items-center ">
+      <div className="pt-[20px] text-[30px] font-display sm:text-[22px] px-[10px] xl:text-[30px]">
+        {/* <div className="w-100 mb-[0%] xl:max-w-7xl xl:mx-auto max-w-full pt-[0%] xl:grid grid-cols-2 gap-x-25 gap-y-3 xm:flex flex-col place-items-center "> */}
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
