@@ -1,10 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion as m } from "framer-motion";
 
 const Skills = () => {
-  const backend = ["MongoDB", "Express", "NodeJS"];
-
-  const frontend = [
+  const skills = [
     "React",
     "Nextjs",
     "Redux",
@@ -14,64 +12,37 @@ const Skills = () => {
     "JavaScript",
     "TailwindCSS",
     "HTML/CSS",
+    "MongoDB",
+    "Express",
+    "NodeJS",
   ];
 
-  const tools = ["Postman", "Git"];
-
   return (
-    <section id="Skills" className="py-20 font-inter">
-      <div className="xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[5%] pt-[8%]">
-        <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px] font-playfair">
+    <section id="Skills">
+      <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full px-[10%] py-[20%] bg-[length:100%_5px] bg-no-repeat">
+        <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px]">
           Skills
         </h1>
 
-        <p className="font-display text-[30px] mb-[2%] xs:text-[16px] sm:text-[22px] sm:pl-[9%]  xl:text-[30px] xl:pl-[5%]"></p>
-
-        <div className="pt-[8%] pl-[8%]">
-          <h2>Frontend:</h2>
-          {frontend.map((skill, idx) => {
-            return (
-              <>
-                <p
-                  key={idx}
-                  className="xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px] pl-[8%]"
-                >
-                  <span className="xs:text-[20px] sm:text-[20px] md:text-[30px] lg:text=[40px]"></span>
-                  <span>{skill}</span>
-                </p>
-              </>
-            );
-          })}
+        <div className="grid grid-cols-3 xs:grid-cols-4">
+          {skills.map((skill, i) => (
+            <m.div
+              key={i}
+              className="pt-[2%] pl-[8%] xs:text-[12px] sm:text-[18px] md:text-[18px] lg:text-[18px] xl:text-[20px]"
+              initial={{
+                opacity: 0,
+                translateX: -50,
+                translateY: -50,
+                translateX: i % 2 === 0 ? -50 : 50,
+                translateY: -50,
+              }}
+              animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+              transition={{ duration: 0.3, delay: i * 0.2 }}
+            >
+              <span>{skill}</span>
+            </m.div>
+          ))}
         </div>
-
-        <motion.div
-          className="pt-[8%] pl-[8%]"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 3 }}
-        >
-          Backend
-        </motion.div>
-
-        {backend.map((skill, i) => {
-          return (
-            <>
-              <span
-                key={i}
-                className="xs:text-[12px] sm:text-[12px] md:text-[18px] lg:text-[18px] pl-[8%]"
-              >
-                <span className="xs:text-[20px] sm:text-[20px] md:text-[30px] lg:text=[40px]"></span>
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 1.5, duration: 3 }}
-                >
-                  {skill}
-                </motion.span>
-              </span>
-            </>
-          );
-        })}
       </div>
     </section>
   );
