@@ -52,7 +52,6 @@ const Projects = () => {
         <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px]">
           Projects
         </h1>
-
         <div className="font-jost pt-[20px] text-[20px] sm:text-[18px] px-[0px] xl:text-[20px]">
           {projects[0].items.map((project, idx) => (
             <m.div

@@ -25,6 +25,7 @@ const Main = () => {
           <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[10%] pt-[8%] bg-[length:100%_5px] bg-no-repeat">
             with a passion for designing and building web-based user interfaces.
           </div>
+
         </div>
       </div>
     </main>
