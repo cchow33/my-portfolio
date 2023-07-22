@@ -13,13 +13,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <m.div
-        className="fixed top-0 bottom-0 right-full w-screen h-screen bg-gradient-to-br from-pink-300 to-[#a9c1e4] filter blur-3xl opacity-50"
-        initial={{ y: "100%" }}
-        animate={{ y: "0%" }}
-        transition={{ duraction: 0.5, ease: "easeInOut" }}
-        exit={{ opactiy: 1 }}
-      > */}
       <Transitions />
       <Main />
       <ScrollToTop />
@@ -27,7 +20,6 @@ export default function Home() {
       <Projects />
       <Skills />
       <Contact />
-      {/* </m.div> */}
     </>
   );
 }

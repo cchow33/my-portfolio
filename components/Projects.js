@@ -12,7 +12,7 @@ const Projects = () => {
           link: "https://altru-frontend.vercel.app/",
           description:
             "Volunteer Connect helps volunteers discover charitable organizations in Toronto. Track your impact through donations, event sign-ups, and by following organizations. Organizations receive real-time updates on donations and event sign-ups.",
-          technology: "React, MongoDB/Mongoose, Express, NodeJS, Firebase Auth",
+          technology: "React, MongoDB, Express, NodeJS, Firebase Auth",
         },
         {
           title: "Trellify",
@@ -48,8 +48,8 @@ const Projects = () => {
 
   return (
     <section id="Projects">
-      <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[10%] pt-[8%] bg-[length:100%_5px]">
-        <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px]">
+      <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[10%] pt-[10%] bg-[length:100%_5px]">
+        <h1 className="decoration-4 font-black text-[60px] mb-[20px] xs:text-[30px] sm:mt-[20px] xl:text-[34px]">
           Projects
         </h1>
         <div className="font-jost pt-[20px] text-[20px] sm:text-[18px] px-[0px] xl:text-[20px]">
@@ -70,11 +70,11 @@ const Projects = () => {
               </div>
 
               <div className="sm:mb-[20px] xs:mb-[10px] md: pl-[40px]">
-                <p className="text-slate-800 text-[26px] font-bold dark:text-gray-100 xl:text-[28px] mt-[20px]">
+                <p className="text-slate-800 text-[26px] font-bold dark:text-gray-100 xl:text-[28px] my-[20px] xs:text-[24px]">
                   {project.title}
                 </p>
                 {project.description}
-                <p className="sm:text-[16px] text-purple-600 font-normal mt-3">
+                <p className="sm:text-[16px] text-purple-600 font-normal mt-3 xs:text-[14px]">
                   {project.technology}
                 </p>
                 <div className="flex mt-4 md:mt-0">

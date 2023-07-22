@@ -4,12 +4,11 @@ import Socials from "./Socials";
 const Contact = () => {
   return (
     <section id="Contact">
-      <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[10%] pt-[8%] bg-[length:100%_5px] bg-no-repeat">
+      <div className="h-100 mb-[0%] font-jost xl:max-w-7xl xl:mx-auto max-w-full pl-[10%] pr-[10%] pt-[8%] bg-[length:100%_5px] bg-no-repeat">
         <div className="absolute left-0 w-full h-96 bg-gradient-to-br from-pink-300 to-[#a9c1e4] filter blur-3xl opacity-50 -z-50"></div>
-        <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px]">
+        <h1 className="decoration-4 font-black text-[60px] xs:text-[30px] sm:mt-[20px] xl:text-[34px]">
           Contact
         </h1>
-        {/* <h1 className="bg-white">Contact</h1> */}
 
         <p
           className="font-jost pt-[20px] text-[20px] font-display sm:text-[18px]

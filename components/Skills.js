@@ -10,21 +10,21 @@ const Skills = () => {
     "Bootstrap",
     "Git",
     "JavaScript",
-    "TailwindCSS",
+    "NodeJS",
     "HTML/CSS",
     "MongoDB",
     "Express",
-    "NodeJS",
+    "TailwindCSS",
   ];
 
   return (
     <section id="Skills">
-      <div className="font-jost xl:max-w-7xl xl:mx-auto max-w-full px-[10%] py-[20%] bg-[length:100%_5px] bg-no-repeat">
-        <h1 className="decoration-4 font-black text-[60px] mb-[20px] sm:text-[30px] sm:mt-[20px] xl:text-[34px]">
+      <div className="font-jost lg:pt-[10%] pl-[10%] xl:max-w-7xl xl:mx-auto max-w-full bg-[length:100%_5px] bg-no-repeat xs:pt-[50%] xs:pb-[66%] ">
+        <h1 className="h-full decoration-4 font-black text-[60px] mb-[20px] xs:text-[30px] sm:mt-[20px] xl:text-[34px]">
           Skills
         </h1>
 
-        <div className="grid grid-cols-3 xs:grid-cols-4">
+        <div className="grid grid-cols-3">
           {skills.map((skill, i) => (
             <m.div
               key={i}
