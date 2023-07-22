@@ -24,7 +24,7 @@ const Skills = () => {
           Skills
         </h1>
 
-        <div className="grid grid-cols-3">
+        <div className="sm:grid grid-cols-3 xs:grid-cols-2">
           {skills.map((skill, i) => (
             <m.div
               key={i}
