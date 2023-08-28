@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion as m } from "framer-motion";
 
 const Skills = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  if (!isMounted) {
+    return null;
+  }
+
   const skills = [
     "React",
     "Nextjs",

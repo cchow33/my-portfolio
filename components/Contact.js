@@ -26,7 +26,7 @@ const Contact = () => {
           <Socials />
         </p>
         <span className="text-center mt-[40px] mb-[40px] text-[14px] xs:text-[14px] xl:text-[14px] sm:pt-[20px] md:mb-[20px] lg:mb-[30px]">
-          <p>© 2023 Designed and built by Carmen Chow</p>
+          <p>© 2023 Designed and created by Carmen Chow</p>
         </span>
       </div>
     </section>
