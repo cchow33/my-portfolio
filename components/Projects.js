@@ -70,7 +70,7 @@ const Projects = () => {
               </div>
 
               <div className="sm:mb-[20px] xs:mb-[10px] md: pl-[40px]">
-                <p className="text-slate-800 text-[26px] font-bold dark:text-gray-100 xl:text-[28px] my-[20px] xs:text-[24px]">
+                <p className="text-slate-800 text-[26px] font-bold dark:text-gray-400 xl:text-[28px] my-[20px] xs:text-[24px]">
                   {project.title}
                 </p>
                 {project.description}
