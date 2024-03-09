@@ -14,8 +14,7 @@ const Contact = () => {
           className="font-jost pt-[20px] text-[20px] font-display sm:text-[18px]
           px-[10px] xl:text-[20px]"
         >
-          Want to hire me or work on a project together? Email me and let's
-          chat:
+          Want to hire me or work on a project together? Email me at
           <a
             href="mailto:reach.cchow@gmail.com"
             className="underline ml-2 mr-2"
