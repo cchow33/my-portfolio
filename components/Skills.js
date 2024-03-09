@@ -22,7 +22,7 @@ const Skills = () => {
     "Typescript",
     "React Native",
     "JavaScript",
-    "NodeJS",
+    "NodeJS", .
     "HTML/CSS",
     "MongoDB",
     "Express",
