@@ -19,6 +19,8 @@ const Skills = () => {
     "JQuery",
     "Bootstrap",
     "Git",
+    "Typescript",
+    "React Native",
     "JavaScript",
     "NodeJS",
     "HTML/CSS",
