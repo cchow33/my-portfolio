@@ -24,12 +24,12 @@ const About = () => {
             transition={{ delay: 0.5, duration: 0.75, ease: "easeInOut" }}
             className="col-span-1 font-jost text-[20px] font-display sm:text-[18px] px-[10px] xl:text-[20px] xs:pt-[10px]"
           >
-            I am a Toronto-based developer interested in problem-solving and
+            I'm a Toronto-based developer interested in problem-solving and
             building user-centred, beautiful user interfaces. Drawing on my
             previous career in education, I approach design and code with the
             end-user in mind, and strive to craft positive digital experiences.
             I value being part of teams that promote empathy, trust and
-            communication. When I am not bringing my ideas to life through code,
+            communication. When I'm not bringing my ideas to life through code,
             I can often be found listening to podcasts, discovering great eats
             in Toronto, and training for my next 5K or 10K race.
           </m.p>
